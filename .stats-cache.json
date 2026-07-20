@@ -1,0 +1,1107 @@
+{
+  "3sum": {
+    "difficulty": "Medium",
+    "id": "15",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "title": "3Sum"
+  },
+  "add-two-numbers": {
+    "difficulty": "Medium",
+    "id": "2",
+    "tags": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ],
+    "title": "Add Two Numbers"
+  },
+  "all-nodes-distance-k-in-binary-tree": {
+    "difficulty": "Medium",
+    "id": "863",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "title": "All Nodes Distance K in Binary Tree"
+  },
+  "all-paths-from-source-to-target": {
+    "difficulty": "Medium",
+    "id": "797",
+    "tags": [
+      "Backtracking",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ],
+    "title": "All Paths From Source to Target"
+  },
+  "amount-of-time-for-binary-tree-to-be-infected": {
+    "difficulty": "Medium",
+    "id": "2385",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "title": "Amount of Time for Binary Tree to Be Infected"
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "difficulty": "Easy",
+    "id": "121",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "Best Time to Buy and Sell Stock"
+  },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "difficulty": "Medium",
+    "id": "122",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "title": "Best Time to Buy and Sell Stock II"
+  },
+  "best-time-to-buy-and-sell-stock-with-cooldown": {
+    "difficulty": "Medium",
+    "id": "309",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "Best Time to Buy and Sell Stock with Cooldown"
+  },
+  "binary-tree-level-order-traversal": {
+    "difficulty": "Medium",
+    "id": "102",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "title": "Binary Tree Level Order Traversal"
+  },
+  "binary-tree-right-side-view": {
+    "difficulty": "Medium",
+    "id": "199",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "title": "Binary Tree Right Side View"
+  },
+  "capacity-to-ship-packages-within-d-days": {
+    "difficulty": "Medium",
+    "id": "1011",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "title": "Capacity To Ship Packages Within D Days"
+  },
+  "cheapest-flights-within-k-stops": {
+    "difficulty": "Medium",
+    "id": "787",
+    "tags": [
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ],
+    "title": "Cheapest Flights Within K Stops"
+  },
+  "cinema-seat-allocation": {
+    "difficulty": "Medium",
+    "id": "1386",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Bit Manipulation"
+    ],
+    "title": "Cinema Seat Allocation"
+  },
+  "climbing-stairs": {
+    "difficulty": "Easy",
+    "id": "70",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "title": "Climbing Stairs"
+  },
+  "coin-change": {
+    "difficulty": "Medium",
+    "id": "322",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search"
+    ],
+    "title": "Coin Change"
+  },
+  "combination-sum": {
+    "difficulty": "Medium",
+    "id": "39",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "title": "Combination Sum"
+  },
+  "combination-sum-ii": {
+    "difficulty": "Medium",
+    "id": "40",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "title": "Combination Sum II"
+  },
+  "container-with-most-water": {
+    "difficulty": "Medium",
+    "id": "11",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "title": "Container With Most Water"
+  },
+  "count-good-nodes-in-binary-tree": {
+    "difficulty": "Medium",
+    "id": "1448",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "title": "Count Good Nodes in Binary Tree"
+  },
+  "counting-bits": {
+    "difficulty": "Easy",
+    "id": "338",
+    "tags": [
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ],
+    "title": "Counting Bits"
+  },
+  "course-schedule": {
+    "difficulty": "Medium",
+    "id": "207",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ],
+    "title": "Course Schedule"
+  },
+  "course-schedule-ii": {
+    "difficulty": "Medium",
+    "id": "210",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ],
+    "title": "Course Schedule II"
+  },
+  "decode-string": {
+    "difficulty": "Medium",
+    "id": "394",
+    "tags": [
+      "String",
+      "Stack",
+      "Recursion"
+    ],
+    "title": "Decode String"
+  },
+  "decode-ways": {
+    "difficulty": "Medium",
+    "id": "91",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "title": "Decode Ways"
+  },
+  "design-circular-queue": {
+    "difficulty": "Medium",
+    "id": "622",
+    "tags": [
+      "Array",
+      "Linked List",
+      "Design",
+      "Queue"
+    ],
+    "title": "Design Circular Queue"
+  },
+  "design-twitter": {
+    "difficulty": "Medium",
+    "id": "355",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Heap (Priority Queue)"
+    ],
+    "title": "Design Twitter"
+  },
+  "detect-cycles-in-2d-grid": {
+    "difficulty": "Medium",
+    "id": "1559",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "title": "Detect Cycles in 2D Grid"
+  },
+  "diagonal-traverse": {
+    "difficulty": "Medium",
+    "id": "498",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "title": "Diagonal Traverse"
+  },
+  "edit-distance": {
+    "difficulty": "Medium",
+    "id": "72",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "title": "Edit Distance"
+  },
+  "evaluate-division": {
+    "difficulty": "Medium",
+    "id": "399",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Shortest Path"
+    ],
+    "title": "Evaluate Division"
+  },
+  "expressive-words": {
+    "difficulty": "Medium",
+    "id": "809",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String"
+    ],
+    "title": "Expressive Words"
+  },
+  "find-eventual-safe-states": {
+    "difficulty": "Medium",
+    "id": "802",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ],
+    "title": "Find Eventual Safe States"
+  },
+  "find-median-from-data-stream": {
+    "difficulty": "Hard",
+    "id": "295",
+    "tags": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ],
+    "title": "Find Median from Data Stream"
+  },
+  "generate-parentheses": {
+    "difficulty": "Medium",
+    "id": "22",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "title": "Generate Parentheses"
+  },
+  "group-anagrams": {
+    "difficulty": "Medium",
+    "id": "49",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "title": "Group Anagrams"
+  },
+  "happy-number": {
+    "difficulty": "Easy",
+    "id": "202",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ],
+    "title": "Happy Number"
+  },
+  "house-robber": {
+    "difficulty": "Medium",
+    "id": "198",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "House Robber"
+  },
+  "house-robber-ii": {
+    "difficulty": "Medium",
+    "id": "213",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "House Robber II"
+  },
+  "integer-to-roman": {
+    "difficulty": "Medium",
+    "id": "12",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "title": "Integer to Roman"
+  },
+  "interleaving-string": {
+    "difficulty": "Medium",
+    "id": "97",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "title": "Interleaving String"
+  },
+  "is-graph-bipartite": {
+    "difficulty": "Medium",
+    "id": "785",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Is Graph Bipartite?"
+  },
+  "jump-game": {
+    "difficulty": "Medium",
+    "id": "55",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "title": "Jump Game"
+  },
+  "jump-game-ii": {
+    "difficulty": "Medium",
+    "id": "45",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "title": "Jump Game II"
+  },
+  "keys-and-rooms": {
+    "difficulty": "Medium",
+    "id": "841",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ],
+    "title": "Keys and Rooms"
+  },
+  "koko-eating-bananas": {
+    "difficulty": "Medium",
+    "id": "875",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "title": "Koko Eating Bananas"
+  },
+  "kth-smallest-element-in-a-bst": {
+    "difficulty": "Medium",
+    "id": "230",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "title": "Kth Smallest Element in a BST"
+  },
+  "largest-palindromic-number": {
+    "difficulty": "Medium",
+    "id": "2384",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting"
+    ],
+    "title": "Largest Palindromic Number"
+  },
+  "longest-common-subsequence": {
+    "difficulty": "Medium",
+    "id": "1143",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "title": "Longest Common Subsequence"
+  },
+  "longest-consecutive-sequence": {
+    "difficulty": "Medium",
+    "id": "128",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Union-Find"
+    ],
+    "title": "Longest Consecutive Sequence"
+  },
+  "longest-happy-string": {
+    "difficulty": "Medium",
+    "id": "1405",
+    "tags": [
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ],
+    "title": "Longest Happy String"
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "difficulty": "Hard",
+    "id": "329",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Memoization",
+      "Matrix"
+    ],
+    "title": "Longest Increasing Path in a Matrix"
+  },
+  "longest-palindromic-substring": {
+    "difficulty": "Medium",
+    "id": "5",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "title": "Longest Palindromic Substring"
+  },
+  "longest-repeating-character-replacement": {
+    "difficulty": "Medium",
+    "id": "424",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "title": "Longest Repeating Character Replacement"
+  },
+  "longest-substring-without-repeating-characters": {
+    "difficulty": "Medium",
+    "id": "3",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "title": "Longest Substring Without Repeating Characters"
+  },
+  "lru-cache": {
+    "difficulty": "Medium",
+    "id": "146",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ],
+    "title": "LRU Cache"
+  },
+  "max-area-of-island": {
+    "difficulty": "Medium",
+    "id": "695",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "title": "Max Area of Island"
+  },
+  "max-consecutive-ones-iii": {
+    "difficulty": "Medium",
+    "id": "1004",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ],
+    "title": "Max Consecutive Ones III"
+  },
+  "maximum-difference-between-increasing-elements": {
+    "difficulty": "Easy",
+    "id": "2016",
+    "tags": [
+      "Array"
+    ],
+    "title": "Maximum Difference Between Increasing Elements"
+  },
+  "maximum-product-subarray": {
+    "difficulty": "Medium",
+    "id": "152",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "Maximum Product Subarray"
+  },
+  "maximum-subarray": {
+    "difficulty": "Medium",
+    "id": "53",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
+    ],
+    "title": "Maximum Subarray"
+  },
+  "min-cost-climbing-stairs": {
+    "difficulty": "Easy",
+    "id": "746",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "Min Cost Climbing Stairs"
+  },
+  "minimum-height-trees": {
+    "difficulty": "Medium",
+    "id": "310",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ],
+    "title": "Minimum Height Trees"
+  },
+  "minimum-moves-to-spread-stones-over-grid": {
+    "difficulty": "Medium",
+    "id": "2850",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Matrix",
+      "Bitmask"
+    ],
+    "title": "Minimum Moves to Spread Stones Over Grid"
+  },
+  "minimum-number-of-food-buckets-to-feed-the-hamsters": {
+    "difficulty": "Medium",
+    "id": "2086",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "title": "Minimum Number of Food Buckets to Feed the Hamsters"
+  },
+  "minimum-path-sum": {
+    "difficulty": "Medium",
+    "id": "64",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "title": "Minimum Path Sum"
+  },
+  "minimum-time-to-collect-all-apples-in-a-tree": {
+    "difficulty": "Medium",
+    "id": "1443",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ],
+    "title": "Minimum Time to Collect All Apples in a Tree"
+  },
+  "most-stones-removed-with-same-row-or-column": {
+    "difficulty": "Medium",
+    "id": "947",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Most Stones Removed with Same Row or Column"
+  },
+  "network-delay-time": {
+    "difficulty": "Medium",
+    "id": "743",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ],
+    "title": "Network Delay Time"
+  },
+  "number-of-1-bits": {
+    "difficulty": "Easy",
+    "id": "191",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ],
+    "title": "Number of 1 Bits"
+  },
+  "number-of-islands": {
+    "difficulty": "Medium",
+    "id": "200",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "title": "Number of Islands"
+  },
+  "number-of-provinces": {
+    "difficulty": "Medium",
+    "id": "547",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Number of Provinces"
+  },
+  "number-of-steps-to-reduce-a-number-in-binary-representation-to-one": {
+    "difficulty": "Medium",
+    "id": "1404",
+    "tags": [
+      "String",
+      "Bit Manipulation",
+      "Simulation"
+    ],
+    "title": "Number of Steps to Reduce a Number in Binary Representation to One"
+  },
+  "pacific-atlantic-water-flow": {
+    "difficulty": "Medium",
+    "id": "417",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "title": "Pacific Atlantic Water Flow"
+  },
+  "palindrome-partitioning": {
+    "difficulty": "Medium",
+    "id": "131",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "title": "Palindrome Partitioning"
+  },
+  "path-with-maximum-gold": {
+    "difficulty": "Medium",
+    "id": "1219",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Matrix"
+    ],
+    "title": "Path with Maximum Gold"
+  },
+  "possible-bipartition": {
+    "difficulty": "Medium",
+    "id": "886",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Possible Bipartition"
+  },
+  "product-of-array-except-self": {
+    "difficulty": "Medium",
+    "id": "238",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "title": "Product of Array Except Self"
+  },
+  "reconstruct-itinerary": {
+    "difficulty": "Hard",
+    "id": "332",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Graph Theory",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Eulerian Circuit"
+    ],
+    "title": "Reconstruct Itinerary"
+  },
+  "redundant-connection": {
+    "difficulty": "Medium",
+    "id": "684",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Redundant Connection"
+  },
+  "remove-all-adjacent-duplicates-in-string": {
+    "difficulty": "Easy",
+    "id": "1047",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "title": "Remove All Adjacent Duplicates In String"
+  },
+  "reverse-words-in-a-string": {
+    "difficulty": "Medium",
+    "id": "151",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "title": "Reverse Words in a String"
+  },
+  "roman-to-integer": {
+    "difficulty": "Easy",
+    "id": "13",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "title": "Roman to Integer"
+  },
+  "rotate-image": {
+    "difficulty": "Medium",
+    "id": "48",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix"
+    ],
+    "title": "Rotate Image"
+  },
+  "rotting-oranges": {
+    "difficulty": "Medium",
+    "id": "994",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "title": "Rotting Oranges"
+  },
+  "satisfiability-of-equality-equations": {
+    "difficulty": "Medium",
+    "id": "990",
+    "tags": [
+      "Array",
+      "String",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Satisfiability of Equality Equations"
+  },
+  "single-number": {
+    "difficulty": "Easy",
+    "id": "136",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "title": "Single Number"
+  },
+  "subarray-sum-equals-k": {
+    "difficulty": "Medium",
+    "id": "560",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "title": "Subarray Sum Equals K"
+  },
+  "subsets": {
+    "difficulty": "Medium",
+    "id": "78",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "title": "Subsets"
+  },
+  "surrounded-regions": {
+    "difficulty": "Medium",
+    "id": "130",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "title": "Surrounded Regions"
+  },
+  "task-scheduler": {
+    "difficulty": "Medium",
+    "id": "621",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ],
+    "title": "Task Scheduler"
+  },
+  "top-k-frequent-elements": {
+    "difficulty": "Medium",
+    "id": "347",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ],
+    "title": "Top K Frequent Elements"
+  },
+  "trapping-rain-water": {
+    "difficulty": "Hard",
+    "id": "42",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "title": "Trapping Rain Water"
+  },
+  "triangle": {
+    "difficulty": "Medium",
+    "id": "120",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "title": "Triangle"
+  },
+  "two-sum": {
+    "difficulty": "Easy",
+    "id": "1",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "title": "Two Sum"
+  },
+  "unique-binary-search-trees": {
+    "difficulty": "Medium",
+    "id": "96",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "title": "Unique Binary Search Trees"
+  },
+  "unique-binary-search-trees-ii": {
+    "difficulty": "Medium",
+    "id": "95",
+    "tags": [
+      "Dynamic Programming",
+      "Backtracking",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "title": "Unique Binary Search Trees II"
+  },
+  "unique-paths": {
+    "difficulty": "Medium",
+    "id": "62",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ],
+    "title": "Unique Paths"
+  },
+  "unique-paths-ii": {
+    "difficulty": "Medium",
+    "id": "63",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "title": "Unique Paths II"
+  },
+  "valid-parentheses": {
+    "difficulty": "Easy",
+    "id": "20",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "title": "Valid Parentheses"
+  },
+  "valid-sudoku": {
+    "difficulty": "Medium",
+    "id": "36",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "title": "Valid Sudoku"
+  },
+  "validate-binary-search-tree": {
+    "difficulty": "Medium",
+    "id": "98",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ],
+    "title": "Validate Binary Search Tree"
+  },
+  "validate-ip-address": {
+    "difficulty": "Medium",
+    "id": "468",
+    "tags": [
+      "String"
+    ],
+    "title": "Validate IP Address"
+  },
+  "word-break": {
+    "difficulty": "Medium",
+    "id": "139",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie",
+      "Memoization"
+    ],
+    "title": "Word Break"
+  },
+  "word-break-ii": {
+    "difficulty": "Hard",
+    "id": "140",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Trie",
+      "Memoization"
+    ],
+    "title": "Word Break II"
+  },
+  "word-search": {
+    "difficulty": "Medium",
+    "id": "79",
+    "tags": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
+    ],
+    "title": "Word Search"
+  }
+}
