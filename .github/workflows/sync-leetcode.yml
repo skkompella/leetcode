@@ -1,0 +1,43 @@
+name: Sync LeetCode
+
+on:
+  workflow_dispatch:            # lets you trigger a run manually from the Actions tab
+  schedule:
+    - cron: "0 8 * * *"         # daily, 08:00 UTC — commits only when there are new submissions
+
+permissions:
+  contents: write               # allow the stats step to push README.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync submissions
+        uses: joshcai/leetcode-sync@v1.7
+        with:
+          github-token: ${{ github.token }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
+          destination-folder: solutions   # keeps repo root clean
+          verbose: true                    # adds runtime/memory percentiles
+
+      - name: Get the commit the sync just pushed
+        run: git pull --rebase
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate stats README
+        run: python scripts/generate_stats.py
+
+      - name: Commit README
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md .stats-cache.json
+          git commit -m "chore: update stats README" || echo "no changes"
+          git push
