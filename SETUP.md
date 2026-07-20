@@ -41,15 +41,16 @@ Repo → **Settings** → **Secrets and variables** → **Actions** → **New re
 Repo → **Actions** tab → **Sync LeetCode** → **Run workflow**.
 Don't wait for the daily cron — trigger it manually the first time.
 
-- The first run **back-fills** all your historical accepted submissions into `solutions/`.
-  If you have many, you may hit a transient "rate limit exceeded" — just re-run.
+- The first run **back-fills** all your historical accepted submissions into `solutions/`
+  (it pages through your whole submission history). Later runs are incremental — they
+  remember the newest timestamp in `.sync-state.json` and only pull what's new.
 - After that, it runs daily at 08:00 UTC and only commits when you've solved something new.
 
 ## Maintenance: the one recurring chore
 
 The `LEETCODE_SESSION` cookie expires every **~2–4 weeks**. When it does, the daily run
-fails. Fix: repeat steps 2–3 with a fresh cookie value (~1 minute), then re-run the
-workflow manually.
+fails with a clear message (`ERROR: ... cookie has most likely expired`). Fix: repeat
+steps 2–3 with a fresh cookie value (~1 minute), then re-run the workflow manually.
 
 _Optional later:_ add a step that opens a GitHub issue / sends a notification on failure so
 you get pinged when the cookie dies instead of noticing a red X.
@@ -58,6 +59,7 @@ you get pinged when the cookie dies instead of noticing a red X.
 
 - **Schedule:** edit the `cron` line in [`.github/workflows/sync-leetcode.yml`](.github/workflows/sync-leetcode.yml).
   `0 8 * * *` = daily 08:00 UTC. (`0 8 * * 6` = weekly Saturdays.)
-- **Folder:** change `destination-folder: solutions` if you want a different layout.
+- **Fetcher:** [`scripts/sync_submissions.py`](scripts/sync_submissions.py) pulls from
+  LeetCode's `/api/submissions/` endpoint and writes `solutions/<id>-<slug>/<slug>.<ext>`.
 - **Stats:** [`scripts/generate_stats.py`](scripts/generate_stats.py) is yours to hack —
   add a streak heatmap, per-language totals, etc.
