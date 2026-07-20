@@ -49,8 +49,22 @@ Don't wait for the daily cron — trigger it manually the first time.
 ## Maintenance: the one recurring chore
 
 The `LEETCODE_SESSION` cookie expires every **~2–4 weeks**. When it does, the daily run
-fails with a clear message (`ERROR: ... cookie has most likely expired`). Fix: repeat
-steps 2–3 with a fresh cookie value (~1 minute), then re-run the workflow manually.
+fails with a clear message (`ERROR: ... cookie has most likely expired`).
+
+**One-command fix** (reads the cookie from your logged-in Firefox and updates the GitHub
+secret automatically — no DevTools, no copy-paste):
+
+```bash
+pip install -r scripts/requirements-local.txt   # once
+python3 scripts/refresh_cookies.py               # each time the cookie expires
+```
+
+See [`scripts/refresh_cookies.py`](scripts/refresh_cookies.py) for options (`--browser`,
+`--env`, `--repo`). This runs locally only — GitHub's runners have no browser. Point a
+local cron/systemd timer at it to make refreshing fully hands-off.
+
+**Manual fallback:** repeat steps 2–3 above with a fresh cookie value, then re-run the
+workflow from the Actions tab.
 
 _Optional later:_ add a step that opens a GitHub issue / sends a notification on failure so
 you get pinged when the cookie dies instead of noticing a red X.

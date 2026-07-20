@@ -1,0 +1,5 @@
+# Dependencies for the LOCAL-only helper scripts/refresh_cookies.py.
+# The CI scripts (sync_submissions.py, generate_stats.py) use only the stdlib
+# and need nothing installed. Install with:
+#   pip install -r scripts/requirements-local.txt
+browser_cookie3>=0.19
