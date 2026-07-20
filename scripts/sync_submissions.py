@@ -58,6 +58,22 @@ def die(msg: str) -> "None":
     sys.exit(1)
 
 
+def load_dotenv(path: Path = REPO_ROOT / ".env") -> None:
+    """Populate os.environ from a local .env file for local runs.
+
+    Does NOT override variables already set in the environment, so CI's real
+    secrets always win over anything on disk.
+    """
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
 def get_credentials() -> tuple[str, str]:
     session = os.environ.get("LEETCODE_SESSION", "").strip()
     csrf = os.environ.get("LEETCODE_CSRF_TOKEN", "").strip()
@@ -159,6 +175,7 @@ def folder_name(meta: dict, slug: str) -> str:
 
 
 def main() -> int:
+    load_dotenv()
     session, csrf = get_credentials()
     headers = auth_headers(session, csrf)
     cache = load_json(CACHE_FILE, {})
