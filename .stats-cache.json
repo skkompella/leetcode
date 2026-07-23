@@ -345,6 +345,16 @@
     ],
     "title": "Find Median from Data Stream"
   },
+  "flower-planting-with-no-adjacent": {
+    "difficulty": "Medium",
+    "id": "1042",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ],
+    "title": "Flower Planting With No Adjacent"
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "id": "22",

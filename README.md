@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**105 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 88 Medium &nbsp;·&nbsp; 🔴 5 Hard
+**106 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 89 Medium &nbsp;·&nbsp; 🔴 5 Hard
 
-_Last synced: 2026-07-22 10:11 UTC_
+_Last synced: 2026-07-23 10:09 UTC_
 
 ## ✅ Problems
 
@@ -103,6 +103,7 @@ _Last synced: 2026-07-22 10:11 UTC_
 | 994 | [Rotting Oranges](solutions/0994-rotting-oranges) | 🟡 Medium | Array, Breadth-First Search, Matrix | Python |
 | 1004 | [Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii) | 🟡 Medium | Array, Binary Search, Sliding Window, Prefix Sum | Python |
 | 1011 | [Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days) | 🟡 Medium | Array, Binary Search | Python |
+| 1042 | [Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory | Python |
 | 1047 | [Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String, Stack | Python |
 | 1143 | [Longest Common Subsequence](solutions/1143-longest-common-subsequence) | 🟡 Medium | String, Dynamic Programming | Python |
 | 1219 | [Path with Maximum Gold](solutions/1219-path-with-maximum-gold) | 🟡 Medium | Array, Backtracking, Matrix | Python |
@@ -214,7 +215,7 @@ _Last synced: 2026-07-22 10:11 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Depth-First Search</b> (29)</summary>
+<details><summary><b>Depth-First Search</b> (30)</summary>
 
 - [79. Word Search](solutions/0079-word-search)
 - [98. Validate Binary Search Tree](solutions/0098-validate-binary-search-tree)
@@ -241,6 +242,39 @@ _Last synced: 2026-07-22 10:11 UTC_
 - [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
 - [886. Possible Bipartition](solutions/0886-possible-bipartition)
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
+- [1042. Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent)
+- [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
+- [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
+- [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
+- [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
+
+</details>
+<details><summary><b>Breadth-First Search</b> (28)</summary>
+
+- [102. Binary Tree Level Order Traversal](solutions/0102-binary-tree-level-order-traversal)
+- [130. Surrounded Regions](solutions/0130-surrounded-regions)
+- [199. Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view)
+- [200. Number of Islands](solutions/0200-number-of-islands)
+- [207. Course Schedule](solutions/0207-course-schedule)
+- [210. Course Schedule II](solutions/0210-course-schedule-ii)
+- [310. Minimum Height Trees](solutions/0310-minimum-height-trees)
+- [322. Coin Change](solutions/0322-coin-change)
+- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
+- [399. Evaluate Division](solutions/0399-evaluate-division)
+- [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
+- [547. Number of Provinces](solutions/0547-number-of-provinces)
+- [684. Redundant Connection](solutions/0684-redundant-connection)
+- [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [743. Network Delay Time](solutions/0743-network-delay-time)
+- [785. Is Graph Bipartite?](solutions/0785-is-graph-bipartite)
+- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
+- [797. All Paths From Source to Target](solutions/0797-all-paths-from-source-to-target)
+- [802. Find Eventual Safe States](solutions/0802-find-eventual-safe-states)
+- [841. Keys and Rooms](solutions/0841-keys-and-rooms)
+- [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
+- [886. Possible Bipartition](solutions/0886-possible-bipartition)
+- [994. Rotting Oranges](solutions/0994-rotting-oranges)
+- [1042. Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent)
 - [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
 - [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
@@ -279,37 +313,6 @@ _Last synced: 2026-07-22 10:11 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Breadth-First Search</b> (27)</summary>
-
-- [102. Binary Tree Level Order Traversal](solutions/0102-binary-tree-level-order-traversal)
-- [130. Surrounded Regions](solutions/0130-surrounded-regions)
-- [199. Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view)
-- [200. Number of Islands](solutions/0200-number-of-islands)
-- [207. Course Schedule](solutions/0207-course-schedule)
-- [210. Course Schedule II](solutions/0210-course-schedule-ii)
-- [310. Minimum Height Trees](solutions/0310-minimum-height-trees)
-- [322. Coin Change](solutions/0322-coin-change)
-- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
-- [399. Evaluate Division](solutions/0399-evaluate-division)
-- [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
-- [547. Number of Provinces](solutions/0547-number-of-provinces)
-- [684. Redundant Connection](solutions/0684-redundant-connection)
-- [695. Max Area of Island](solutions/0695-max-area-of-island)
-- [743. Network Delay Time](solutions/0743-network-delay-time)
-- [785. Is Graph Bipartite?](solutions/0785-is-graph-bipartite)
-- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
-- [797. All Paths From Source to Target](solutions/0797-all-paths-from-source-to-target)
-- [802. Find Eventual Safe States](solutions/0802-find-eventual-safe-states)
-- [841. Keys and Rooms](solutions/0841-keys-and-rooms)
-- [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
-- [886. Possible Bipartition](solutions/0886-possible-bipartition)
-- [994. Rotting Oranges](solutions/0994-rotting-oranges)
-- [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
-- [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
-- [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
-- [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
-
-</details>
 <details><summary><b>Hash Table</b> (22)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
@@ -336,7 +339,7 @@ _Last synced: 2026-07-22 10:11 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>Graph Theory</b> (17)</summary>
+<details><summary><b>Graph Theory</b> (18)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
 - [210. Course Schedule II](solutions/0210-course-schedule-ii)
@@ -355,6 +358,7 @@ _Last synced: 2026-07-22 10:11 UTC_
 - [886. Possible Bipartition](solutions/0886-possible-bipartition)
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
 - [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
+- [1042. Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent)
 
 </details>
 <details><summary><b>Matrix</b> (15)</summary>
