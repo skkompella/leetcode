@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**106 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 89 Medium &nbsp;·&nbsp; 🔴 5 Hard
+**107 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 89 Medium &nbsp;·&nbsp; 🔴 6 Hard
 
-_Last synced: 2026-07-23 10:09 UTC_
+_Last synced: 2026-07-24 10:04 UTC_
 
 ## ✅ Problems
 
@@ -79,6 +79,7 @@ _Last synced: 2026-07-23 10:09 UTC_
 | 399 | [Evaluate Division](solutions/0399-evaluate-division) | 🟡 Medium | Array, String, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Shortest Path | Python |
 | 417 | [Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Matrix | Python |
 | 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement) | 🟡 Medium | Hash Table, String, Sliding Window | Python |
+| 460 | [LFU Cache](solutions/0460-lfu-cache) | 🔴 Hard | Hash Table, Linked List, Design, Doubly-Linked List | Python |
 | 468 | [Validate IP Address](solutions/0468-validate-ip-address) | 🟡 Medium | String | Python |
 | 498 | [Diagonal Traverse](solutions/0498-diagonal-traverse) | 🟡 Medium | Array, Matrix, Simulation | Python |
 | 547 | [Number of Provinces](solutions/0547-number-of-provinces) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
@@ -313,7 +314,7 @@ _Last synced: 2026-07-23 10:09 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Hash Table</b> (22)</summary>
+<details><summary><b>Hash Table</b> (23)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
@@ -329,6 +330,7 @@ _Last synced: 2026-07-23 10:09 UTC_
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
 - [355. Design Twitter](solutions/0355-design-twitter)
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [460. LFU Cache](solutions/0460-lfu-cache)
 - [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
 - [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
@@ -508,6 +510,24 @@ _Last synced: 2026-07-23 10:09 UTC_
 - [621. Task Scheduler](solutions/0621-task-scheduler)
 
 </details>
+<details><summary><b>Design</b> (5)</summary>
+
+- [146. LRU Cache](solutions/0146-lru-cache)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [355. Design Twitter](solutions/0355-design-twitter)
+- [460. LFU Cache](solutions/0460-lfu-cache)
+- [622. Design Circular Queue](solutions/0622-design-circular-queue)
+
+</details>
+<details><summary><b>Linked List</b> (5)</summary>
+
+- [2. Add Two Numbers](solutions/0002-add-two-numbers)
+- [146. LRU Cache](solutions/0146-lru-cache)
+- [355. Design Twitter](solutions/0355-design-twitter)
+- [460. LFU Cache](solutions/0460-lfu-cache)
+- [622. Design Circular Queue](solutions/0622-design-circular-queue)
+
+</details>
 <details><summary><b>Topological Sort</b> (5)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
@@ -523,22 +543,6 @@ _Last synced: 2026-07-23 10:09 UTC_
 - [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
 - [98. Validate Binary Search Tree](solutions/0098-validate-binary-search-tree)
 - [230. Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst)
-
-</details>
-<details><summary><b>Design</b> (4)</summary>
-
-- [146. LRU Cache](solutions/0146-lru-cache)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [355. Design Twitter](solutions/0355-design-twitter)
-- [622. Design Circular Queue](solutions/0622-design-circular-queue)
-
-</details>
-<details><summary><b>Linked List</b> (4)</summary>
-
-- [2. Add Two Numbers](solutions/0002-add-two-numbers)
-- [146. LRU Cache](solutions/0146-lru-cache)
-- [355. Design Twitter](solutions/0355-design-twitter)
-- [622. Design Circular Queue](solutions/0622-design-circular-queue)
 
 </details>
 <details><summary><b>Memoization</b> (4)</summary>
@@ -599,6 +603,12 @@ _Last synced: 2026-07-23 10:09 UTC_
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
+<details><summary><b>Doubly-Linked List</b> (2)</summary>
+
+- [146. LRU Cache](solutions/0146-lru-cache)
+- [460. LFU Cache](solutions/0460-lfu-cache)
+
+</details>
 <details><summary><b>Recursion</b> (2)</summary>
 
 - [2. Add Two Numbers](solutions/0002-add-two-numbers)
@@ -635,11 +645,6 @@ _Last synced: 2026-07-23 10:09 UTC_
 <details><summary><b>Data Stream</b> (1)</summary>
 
 - [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-
-</details>
-<details><summary><b>Doubly-Linked List</b> (1)</summary>
-
-- [146. LRU Cache](solutions/0146-lru-cache)
 
 </details>
 <details><summary><b>Eulerian Circuit</b> (1)</summary>
