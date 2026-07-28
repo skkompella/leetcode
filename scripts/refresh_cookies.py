@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -55,11 +56,46 @@ def detect_repo() -> str | None:
     return m.group(1) if m else None
 
 
-def read_cookies(browser: str) -> dict:
+FIREFOX_COOKIE_GLOBS = [
+    "~/.mozilla/firefox/*/cookies.sqlite",
+    "~/snap/firefox/common/.mozilla/firefox/*/cookies.sqlite",           # Ubuntu Snap
+    "~/.var/app/org.mozilla.firefox/.mozilla/firefox/*/cookies.sqlite",  # Flatpak
+    "~/Library/Application Support/Firefox/Profiles/*/cookies.sqlite",    # macOS
+]
+
+
+def find_firefox_cookie_file(domain: str = "leetcode.com") -> str | None:
+    """Locate a Firefox cookies.sqlite, preferring a profile that has `domain` cookies.
+
+    Needed because Ubuntu's Snap and Flatpak Firefox store the profile outside the
+    default ~/.mozilla path that browser_cookie3 searches.
+    """
+    import glob
+    import sqlite3
+    fallback = None
+    for pattern in FIREFOX_COOKIE_GLOBS:
+        for path in sorted(glob.glob(os.path.expanduser(pattern))):
+            fallback = fallback or path
+            try:
+                con = sqlite3.connect(f"file:{path}?immutable=1", uri=True)
+                n = con.execute(
+                    "SELECT count(*) FROM moz_cookies WHERE host LIKE ?",
+                    (f"%{domain}%",),
+                ).fetchone()[0]
+                con.close()
+            except sqlite3.Error:
+                n = 0
+            if n:
+                return path
+    return fallback
+
+
+def read_cookies(browser: str, cookie_file: str | None = None) -> dict:
     try:
         import browser_cookie3
     except ImportError:
-        die("browser_cookie3 is not installed. Run:  pip install browser_cookie3")
+        die("browser_cookie3 is not installed. Run:  "
+            "pip install -r scripts/requirements-local.txt")
 
     loaders = {
         "firefox": browser_cookie3.firefox,
@@ -72,8 +108,14 @@ def read_cookies(browser: str) -> dict:
     if loader is None:
         die(f"Unknown browser {browser!r}. Choose from: {', '.join(loaders)}")
 
+    if browser == "firefox" and not cookie_file:
+        cookie_file = find_firefox_cookie_file()
+
     try:
-        jar = loader(domain_name="leetcode.com")
+        kwargs = {"domain_name": "leetcode.com"}
+        if cookie_file:
+            kwargs["cookie_file"] = cookie_file
+        jar = loader(**kwargs)
     except Exception as e:  # browser_cookie3 raises assorted errors per platform
         die(f"Could not read {browser} cookies: {e}\n"
             "Make sure you're logged into leetcode.com in that browser "
@@ -136,6 +178,8 @@ def main() -> int:
     ap.add_argument("--repo", help="Target repo OWNER/NAME (default: auto-detect).")
     ap.add_argument("--browser", default="firefox",
                     help="Browser to read cookies from (default: firefox).")
+    ap.add_argument("--cookie-file",
+                    help="Path to the browser's cookies.sqlite (overrides auto-detection).")
     ap.add_argument("--env", action="store_true", help="Also write the local .env file.")
     ap.add_argument("--no-verify", action="store_true",
                     help="Skip the live LeetCode check before pushing.")
@@ -146,7 +190,7 @@ def main() -> int:
         die("Could not detect the repo. Pass --repo OWNER/NAME.")
 
     print(f"Reading LeetCode cookies from {args.browser} ...")
-    cookies = read_cookies(args.browser)
+    cookies = read_cookies(args.browser, args.cookie_file)
     session = cookies.get("LEETCODE_SESSION")
     csrf = cookies.get("csrftoken")
     if not session or not csrf:

@@ -55,13 +55,18 @@ fails with a clear message (`ERROR: ... cookie has most likely expired`).
 secret automatically — no DevTools, no copy-paste):
 
 ```bash
-pip install -r scripts/requirements-local.txt   # once
-python3 scripts/refresh_cookies.py               # each time the cookie expires
+# One-time setup (system Python is PEP 668-managed, so use a venv):
+python3 -m venv .venv
+.venv/bin/pip install -r scripts/requirements-local.txt
+
+# Each time the cookie expires:
+.venv/bin/python scripts/refresh_cookies.py
 ```
 
 See [`scripts/refresh_cookies.py`](scripts/refresh_cookies.py) for options (`--browser`,
-`--env`, `--repo`). This runs locally only — GitHub's runners have no browser. Point a
-local cron/systemd timer at it to make refreshing fully hands-off.
+`--cookie-file`, `--env`, `--repo`). It auto-detects Snap/Flatpak Firefox profiles. This
+runs locally only — GitHub's runners have no browser. Point a local cron/systemd timer at
+`.venv/bin/python scripts/refresh_cookies.py` to make refreshing fully hands-off.
 
 **Manual fallback:** repeat steps 2–3 above with a fresh cookie value, then re-run the
 workflow from the Actions tab.
