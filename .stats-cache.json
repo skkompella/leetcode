@@ -668,6 +668,15 @@
     ],
     "title": "Maximum Subarray"
   },
+  "merge-intervals": {
+    "difficulty": "Medium",
+    "id": "56",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "title": "Merge Intervals"
+  },
   "min-cost-climbing-stairs": {
     "difficulty": "Easy",
     "id": "746",

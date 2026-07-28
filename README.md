@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**111 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 92 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**112 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 93 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-07-28 01:02 UTC_
+_Last synced: 2026-07-28 10:20 UTC_
 
 ## ✅ Problems
 
@@ -31,6 +31,7 @@ _Last synced: 2026-07-28 01:02 UTC_
 | 49 | [Group Anagrams](solutions/0049-group-anagrams) | 🟡 Medium | Array, Hash Table, String, Sorting | Python |
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray) | 🟡 Medium | Array, Divide and Conquer, Dynamic Programming | Python |
 | 55 | [Jump Game](solutions/0055-jump-game) | 🟡 Medium | Array, Dynamic Programming, Greedy | Python |
+| 56 | [Merge Intervals](solutions/0056-merge-intervals) | 🟡 Medium | Array, Sorting | Python |
 | 62 | [Unique Paths](solutions/0062-unique-paths) | 🟡 Medium | Math, Dynamic Programming, Combinatorics | Python |
 | 63 | [Unique Paths II](solutions/0063-unique-paths-ii) | 🟡 Medium | Array, Dynamic Programming, Matrix | Python |
 | 64 | [Minimum Path Sum](solutions/0064-minimum-path-sum) | 🟡 Medium | Array, Dynamic Programming, Matrix | Python |
@@ -126,7 +127,7 @@ _Last synced: 2026-07-28 01:02 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (56)</summary>
+<details><summary><b>Array</b> (57)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -140,6 +141,7 @@ _Last synced: 2026-07-28 01:02 UTC_
 - [49. Group Anagrams](solutions/0049-group-anagrams)
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [55. Jump Game](solutions/0055-jump-game)
+- [56. Merge Intervals](solutions/0056-merge-intervals)
 - [63. Unique Paths II](solutions/0063-unique-paths-ii)
 - [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
 - [78. Subsets](solutions/0078-subsets)
@@ -493,6 +495,18 @@ _Last synced: 2026-07-28 01:02 UTC_
 - [202. Happy Number](solutions/0202-happy-number)
 
 </details>
+<details><summary><b>Sorting</b> (8)</summary>
+
+- [15. 3Sum](solutions/0015-3sum)
+- [49. Group Anagrams](solutions/0049-group-anagrams)
+- [56. Merge Intervals](solutions/0056-merge-intervals)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [621. Task Scheduler](solutions/0621-task-scheduler)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
+
+</details>
 <details><summary><b>Two Pointers</b> (8)</summary>
 
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
@@ -514,17 +528,6 @@ _Last synced: 2026-07-28 01:02 UTC_
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
-
-</details>
-<details><summary><b>Sorting</b> (7)</summary>
-
-- [15. 3Sum](solutions/0015-3sum)
-- [49. Group Anagrams](solutions/0049-group-anagrams)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [621. Task Scheduler](solutions/0621-task-scheduler)
-- [721. Accounts Merge](solutions/0721-accounts-merge)
 
 </details>
 <details><summary><b>Design</b> (5)</summary>
