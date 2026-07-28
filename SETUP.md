@@ -65,8 +65,33 @@ python3 -m venv .venv
 
 See [`scripts/refresh_cookies.py`](scripts/refresh_cookies.py) for options (`--browser`,
 `--cookie-file`, `--env`, `--repo`). It auto-detects Snap/Flatpak Firefox profiles. This
-runs locally only — GitHub's runners have no browser. Point a local cron/systemd timer at
-`.venv/bin/python scripts/refresh_cookies.py` to make refreshing fully hands-off.
+runs locally only — GitHub's runners have no browser.
+
+### Fully hands-off: the systemd timer
+
+A systemd **user** timer runs the refresh weekly (well ahead of the ~2 week expiry),
+inside your logged-in session so `gh`'s keyring-stored token is available, with
+`Persistent=true` to catch up if the machine was off. Unit files live in
+[`scripts/systemd/`](scripts/systemd/). Install:
+
+```bash
+mkdir -p ~/.config/systemd/user
+cp scripts/systemd/leetcode-cookie-refresh.{service,timer} ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now leetcode-cookie-refresh.timer
+```
+
+Useful checks:
+
+```bash
+systemctl --user list-timers leetcode-cookie-refresh.timer   # when it next runs
+systemctl --user start leetcode-cookie-refresh.service        # run it now
+journalctl --user -u leetcode-cookie-refresh.service          # see output
+```
+
+The units assume the repo is at `~/Documents/Projects/leetcode` with the `.venv` created
+above. A plain `cron` job does **not** work here — cron has no access to the desktop
+keyring where `gh` stores its token.
 
 **Manual fallback:** repeat steps 2–3 above with a fresh cookie value, then re-run the
 workflow from the Actions tab.

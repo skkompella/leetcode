@@ -1,0 +1,11 @@
+[Unit]
+Description=Weekly LeetCode cookie refresh (keeps the GitHub secret fresh)
+
+[Timer]
+# Weekly — comfortably ahead of the ~2 week LEETCODE_SESSION expiry.
+OnCalendar=Mon *-*-* 09:00:00
+# Run on next login if the machine was off at the scheduled time.
+Persistent=true
+
+[Install]
+WantedBy=timers.target

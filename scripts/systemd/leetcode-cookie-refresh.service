@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh LeetCode cookies from the local browser and update GitHub secrets
+Documentation=https://github.com/skkompella/leetcode
+
+[Service]
+Type=oneshot
+# Assumes the repo is cloned at ~/Documents/Projects/leetcode. %h = your home dir.
+WorkingDirectory=%h/Documents/Projects/leetcode
+# gh lives in ~/.local/bin; include it so the script's `gh secret set` is found.
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=%h/Documents/Projects/leetcode/.venv/bin/python scripts/refresh_cookies.py
