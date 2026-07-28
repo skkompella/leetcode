@@ -9,6 +9,20 @@
     ],
     "title": "3Sum"
   },
+  "accounts-merge": {
+    "difficulty": "Medium",
+    "id": "721",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Sorting"
+    ],
+    "title": "Accounts Merge"
+  },
   "add-two-numbers": {
     "difficulty": "Medium",
     "id": "2",
@@ -622,6 +636,19 @@
     ],
     "title": "Maximum Difference Between Increasing Elements"
   },
+  "maximum-length-of-repeated-subarray": {
+    "difficulty": "Medium",
+    "id": "718",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sliding Window",
+      "Rolling Hash",
+      "Hash Function"
+    ],
+    "title": "Maximum Length of Repeated Subarray"
+  },
   "maximum-product-subarray": {
     "difficulty": "Medium",
     "id": "152",
@@ -649,6 +676,16 @@
       "Dynamic Programming"
     ],
     "title": "Min Cost Climbing Stairs"
+  },
+  "minimum-cost-path-with-edge-reversals": {
+    "difficulty": "Medium",
+    "id": "3650",
+    "tags": [
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ],
+    "title": "Minimum Cost Path with Edge Reversals"
   },
   "minimum-height-trees": {
     "difficulty": "Medium",
@@ -904,6 +941,16 @@
       "Graph Theory"
     ],
     "title": "Satisfiability of Equality Equations"
+  },
+  "selling-pieces-of-wood": {
+    "difficulty": "Hard",
+    "id": "2312",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "title": "Selling Pieces of Wood"
   },
   "single-number": {
     "difficulty": "Easy",

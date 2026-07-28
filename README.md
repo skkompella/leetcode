@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**107 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 89 Medium &nbsp;·&nbsp; 🔴 6 Hard
+**111 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 92 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-07-24 10:04 UTC_
+_Last synced: 2026-07-28 01:02 UTC_
 
 ## ✅ Problems
 
@@ -88,6 +88,8 @@ _Last synced: 2026-07-24 10:04 UTC_
 | 622 | [Design Circular Queue](solutions/0622-design-circular-queue) | 🟡 Medium | Array, Linked List, Design, Queue | Python |
 | 684 | [Redundant Connection](solutions/0684-redundant-connection) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
 | 695 | [Max Area of Island](solutions/0695-max-area-of-island) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python |
+| 718 | [Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray) | 🟡 Medium | Array, Binary Search, Dynamic Programming, Sliding Window, Rolling Hash, Hash Function | Python |
+| 721 | [Accounts Merge](solutions/0721-accounts-merge) | 🟡 Medium | Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union-Find, Sorting | Python |
 | 743 | [Network Delay Time](solutions/0743-network-delay-time) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory, Heap (Priority Queue), Shortest Path | Python |
 | 746 | [Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs) | 🟢 Easy | Array, Dynamic Programming | Python |
 | 785 | [Is Graph Bipartite?](solutions/0785-is-graph-bipartite) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
@@ -116,13 +118,15 @@ _Last synced: 2026-07-24 10:04 UTC_
 | 1559 | [Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python |
 | 2016 | [Maximum Difference Between Increasing Elements](solutions/2016-maximum-difference-between-increasing-elements) | 🟢 Easy | Array | Python |
 | 2086 | [Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters) | 🟡 Medium | String, Dynamic Programming, Greedy | Python |
+| 2312 | [Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood) | 🔴 Hard | Array, Dynamic Programming, Memoization | Python |
 | 2384 | [Largest Palindromic Number](solutions/2384-largest-palindromic-number) | 🟡 Medium | Hash Table, String, Greedy, Counting | Python |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected) | 🟡 Medium | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
 | 2850 | [Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid) | 🟡 Medium | Array, Dynamic Programming, Backtracking, Bit Manipulation, Matrix, Bitmask | Python |
+| 3650 | [Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals) | 🟡 Medium | Graph Theory, Heap (Priority Queue), Shortest Path | Python |
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (53)</summary>
+<details><summary><b>Array</b> (56)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -165,6 +169,8 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [621. Task Scheduler](solutions/0621-task-scheduler)
 - [622. Design Circular Queue](solutions/0622-design-circular-queue)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [746. Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs)
 - [809. Expressive Words](solutions/0809-expressive-words)
 - [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
@@ -176,10 +182,11 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2016. Maximum Difference Between Increasing Elements](solutions/2016-maximum-difference-between-increasing-elements)
+- [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Dynamic Programming</b> (33)</summary>
+<details><summary><b>Dynamic Programming</b> (35)</summary>
 
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
 - [22. Generate Parentheses](solutions/0022-generate-parentheses)
@@ -209,14 +216,16 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [322. Coin Change](solutions/0322-coin-change)
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
 - [338. Counting Bits](solutions/0338-counting-bits)
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 - [746. Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs)
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
 - [1143. Longest Common Subsequence](solutions/1143-longest-common-subsequence)
 - [2086. Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters)
+- [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Depth-First Search</b> (30)</summary>
+<details><summary><b>Depth-First Search</b> (31)</summary>
 
 - [79. Word Search](solutions/0079-word-search)
 - [98. Validate Binary Search Tree](solutions/0098-validate-binary-search-tree)
@@ -234,6 +243,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [547. Number of Provinces](solutions/0547-number-of-provinces)
 - [684. Redundant Connection](solutions/0684-redundant-connection)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [743. Network Delay Time](solutions/0743-network-delay-time)
 - [785. Is Graph Bipartite?](solutions/0785-is-graph-bipartite)
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
@@ -250,7 +260,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>Breadth-First Search</b> (28)</summary>
+<details><summary><b>Breadth-First Search</b> (29)</summary>
 
 - [102. Binary Tree Level Order Traversal](solutions/0102-binary-tree-level-order-traversal)
 - [130. Surrounded Regions](solutions/0130-surrounded-regions)
@@ -266,6 +276,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [547. Number of Provinces](solutions/0547-number-of-provinces)
 - [684. Redundant Connection](solutions/0684-redundant-connection)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [743. Network Delay Time](solutions/0743-network-delay-time)
 - [785. Is Graph Bipartite?](solutions/0785-is-graph-bipartite)
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
@@ -282,7 +293,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>String</b> (28)</summary>
+<details><summary><b>String</b> (29)</summary>
 
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
@@ -304,6 +315,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [399. Evaluate Division](solutions/0399-evaluate-division)
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
 - [468. Validate IP Address](solutions/0468-validate-ip-address)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [809. Expressive Words](solutions/0809-expressive-words)
 - [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
 - [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
@@ -314,7 +326,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Hash Table</b> (23)</summary>
+<details><summary><b>Hash Table</b> (24)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
@@ -333,6 +345,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [460. LFU Cache](solutions/0460-lfu-cache)
 - [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
@@ -341,7 +354,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>Graph Theory</b> (18)</summary>
+<details><summary><b>Graph Theory</b> (19)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
 - [210. Course Schedule II](solutions/0210-course-schedule-ii)
@@ -361,6 +374,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
 - [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
 - [1042. Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent)
+- [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
 <details><summary><b>Matrix</b> (15)</summary>
@@ -382,7 +396,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Union-Find</b> (12)</summary>
+<details><summary><b>Union-Find</b> (13)</summary>
 
 - [128. Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence)
 - [130. Surrounded Regions](solutions/0130-surrounded-regions)
@@ -391,6 +405,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [547. Number of Provinces](solutions/0547-number-of-provinces)
 - [684. Redundant Connection](solutions/0684-redundant-connection)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 - [785. Is Graph Bipartite?](solutions/0785-is-graph-bipartite)
 - [886. Possible Bipartition](solutions/0886-possible-bipartition)
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
@@ -453,7 +468,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Heap (Priority Queue)</b> (8)</summary>
+<details><summary><b>Heap (Priority Queue)</b> (9)</summary>
 
 - [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
 - [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
@@ -463,6 +478,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [743. Network Delay Time](solutions/0743-network-delay-time)
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
 - [1405. Longest Happy String](solutions/1405-longest-happy-string)
+- [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
 <details><summary><b>Math</b> (8)</summary>
@@ -500,7 +516,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Sorting</b> (6)</summary>
+<details><summary><b>Sorting</b> (7)</summary>
 
 - [15. 3Sum](solutions/0015-3sum)
 - [49. Group Anagrams](solutions/0049-group-anagrams)
@@ -508,6 +524,7 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 
 </details>
 <details><summary><b>Design</b> (5)</summary>
@@ -528,6 +545,15 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [622. Design Circular Queue](solutions/0622-design-circular-queue)
 
 </details>
+<details><summary><b>Memoization</b> (5)</summary>
+
+- [70. Climbing Stairs](solutions/0070-climbing-stairs)
+- [139. Word Break](solutions/0139-word-break)
+- [140. Word Break II](solutions/0140-word-break-ii)
+- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
+- [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
+
+</details>
 <details><summary><b>Topological Sort</b> (5)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
@@ -535,6 +561,14 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [310. Minimum Height Trees](solutions/0310-minimum-height-trees)
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
 - [802. Find Eventual Safe States](solutions/0802-find-eventual-safe-states)
+
+</details>
+<details><summary><b>Binary Search</b> (4)</summary>
+
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+- [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 
 </details>
 <details><summary><b>Binary Search Tree</b> (4)</summary>
@@ -545,12 +579,20 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [230. Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst)
 
 </details>
-<details><summary><b>Memoization</b> (4)</summary>
+<details><summary><b>Shortest Path</b> (4)</summary>
 
-- [70. Climbing Stairs](solutions/0070-climbing-stairs)
-- [139. Word Break](solutions/0139-word-break)
-- [140. Word Break II](solutions/0140-word-break-ii)
-- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
+- [399. Evaluate Division](solutions/0399-evaluate-division)
+- [743. Network Delay Time](solutions/0743-network-delay-time)
+- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
+- [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
+
+</details>
+<details><summary><b>Sliding Window</b> (4)</summary>
+
+- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
+- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
 <details><summary><b>Stack</b> (4)</summary>
@@ -559,13 +601,6 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
 - [394. Decode String](solutions/0394-decode-string)
 - [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
-
-</details>
-<details><summary><b>Binary Search</b> (3)</summary>
-
-- [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-- [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 
 </details>
 <details><summary><b>Counting</b> (3)</summary>
@@ -586,20 +621,6 @@ _Last synced: 2026-07-24 10:04 UTC_
 
 - [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
 - [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-
-</details>
-<details><summary><b>Shortest Path</b> (3)</summary>
-
-- [399. Evaluate Division](solutions/0399-evaluate-division)
-- [743. Network Delay Time](solutions/0743-network-delay-time)
-- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
-
-</details>
-<details><summary><b>Sliding Window</b> (3)</summary>
-
-- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
-- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
@@ -652,6 +673,11 @@ _Last synced: 2026-07-24 10:04 UTC_
 - [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
 
 </details>
+<details><summary><b>Hash Function</b> (1)</summary>
+
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+
+</details>
 <details><summary><b>Monotonic Stack</b> (1)</summary>
 
 - [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
@@ -665,5 +691,10 @@ _Last synced: 2026-07-24 10:04 UTC_
 <details><summary><b>Quickselect</b> (1)</summary>
 
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+
+</details>
+<details><summary><b>Rolling Hash</b> (1)</summary>
+
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 
 </details>
