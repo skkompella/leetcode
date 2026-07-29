@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**112 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 93 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**114 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 95 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-07-28 10:20 UTC_
+_Last synced: 2026-07-29 10:26 UTC_
 
 ## ✅ Problems
 
@@ -32,10 +32,12 @@ _Last synced: 2026-07-28 10:20 UTC_
 | 53 | [Maximum Subarray](solutions/0053-maximum-subarray) | 🟡 Medium | Array, Divide and Conquer, Dynamic Programming | Python |
 | 55 | [Jump Game](solutions/0055-jump-game) | 🟡 Medium | Array, Dynamic Programming, Greedy | Python |
 | 56 | [Merge Intervals](solutions/0056-merge-intervals) | 🟡 Medium | Array, Sorting | Python |
+| 57 | [Insert Interval](solutions/0057-insert-interval) | 🟡 Medium | Array | Python |
 | 62 | [Unique Paths](solutions/0062-unique-paths) | 🟡 Medium | Math, Dynamic Programming, Combinatorics | Python |
 | 63 | [Unique Paths II](solutions/0063-unique-paths-ii) | 🟡 Medium | Array, Dynamic Programming, Matrix | Python |
 | 64 | [Minimum Path Sum](solutions/0064-minimum-path-sum) | 🟡 Medium | Array, Dynamic Programming, Matrix | Python |
 | 70 | [Climbing Stairs](solutions/0070-climbing-stairs) | 🟢 Easy | Math, Dynamic Programming, Memoization | Python |
+| 71 | [Simplify Path](solutions/0071-simplify-path) | 🟡 Medium | String, Stack | Python |
 | 72 | [Edit Distance](solutions/0072-edit-distance) | 🟡 Medium | String, Dynamic Programming | Python |
 | 78 | [Subsets](solutions/0078-subsets) | 🟡 Medium | Array, Backtracking, Bit Manipulation | Python |
 | 79 | [Word Search](solutions/0079-word-search) | 🟡 Medium | Array, String, Backtracking, Depth-First Search, Matrix | Python |
@@ -127,7 +129,7 @@ _Last synced: 2026-07-28 10:20 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (57)</summary>
+<details><summary><b>Array</b> (58)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -142,6 +144,7 @@ _Last synced: 2026-07-28 10:20 UTC_
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [55. Jump Game](solutions/0055-jump-game)
 - [56. Merge Intervals](solutions/0056-merge-intervals)
+- [57. Insert Interval](solutions/0057-insert-interval)
 - [63. Unique Paths II](solutions/0063-unique-paths-ii)
 - [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
 - [78. Subsets](solutions/0078-subsets)
@@ -262,6 +265,40 @@ _Last synced: 2026-07-28 10:20 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
+<details><summary><b>String</b> (30)</summary>
+
+- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
+- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
+- [12. Integer to Roman](solutions/0012-integer-to-roman)
+- [13. Roman to Integer](solutions/0013-roman-to-integer)
+- [20. Valid Parentheses](solutions/0020-valid-parentheses)
+- [22. Generate Parentheses](solutions/0022-generate-parentheses)
+- [49. Group Anagrams](solutions/0049-group-anagrams)
+- [71. Simplify Path](solutions/0071-simplify-path)
+- [72. Edit Distance](solutions/0072-edit-distance)
+- [79. Word Search](solutions/0079-word-search)
+- [91. Decode Ways](solutions/0091-decode-ways)
+- [97. Interleaving String](solutions/0097-interleaving-string)
+- [131. Palindrome Partitioning](solutions/0131-palindrome-partitioning)
+- [139. Word Break](solutions/0139-word-break)
+- [140. Word Break II](solutions/0140-word-break-ii)
+- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
+- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
+- [394. Decode String](solutions/0394-decode-string)
+- [399. Evaluate Division](solutions/0399-evaluate-division)
+- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [468. Validate IP Address](solutions/0468-validate-ip-address)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
+- [809. Expressive Words](solutions/0809-expressive-words)
+- [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
+- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
+- [1143. Longest Common Subsequence](solutions/1143-longest-common-subsequence)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
+- [1405. Longest Happy String](solutions/1405-longest-happy-string)
+- [2086. Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters)
+- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
+
+</details>
 <details><summary><b>Breadth-First Search</b> (29)</summary>
 
 - [102. Binary Tree Level Order Traversal](solutions/0102-binary-tree-level-order-traversal)
@@ -293,39 +330,6 @@ _Last synced: 2026-07-28 10:20 UTC_
 - [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
-
-</details>
-<details><summary><b>String</b> (29)</summary>
-
-- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
-- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
-- [12. Integer to Roman](solutions/0012-integer-to-roman)
-- [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [20. Valid Parentheses](solutions/0020-valid-parentheses)
-- [22. Generate Parentheses](solutions/0022-generate-parentheses)
-- [49. Group Anagrams](solutions/0049-group-anagrams)
-- [72. Edit Distance](solutions/0072-edit-distance)
-- [79. Word Search](solutions/0079-word-search)
-- [91. Decode Ways](solutions/0091-decode-ways)
-- [97. Interleaving String](solutions/0097-interleaving-string)
-- [131. Palindrome Partitioning](solutions/0131-palindrome-partitioning)
-- [139. Word Break](solutions/0139-word-break)
-- [140. Word Break II](solutions/0140-word-break-ii)
-- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
-- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
-- [394. Decode String](solutions/0394-decode-string)
-- [399. Evaluate Division](solutions/0399-evaluate-division)
-- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
-- [468. Validate IP Address](solutions/0468-validate-ip-address)
-- [721. Accounts Merge](solutions/0721-accounts-merge)
-- [809. Expressive Words](solutions/0809-expressive-words)
-- [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
-- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
-- [1143. Longest Common Subsequence](solutions/1143-longest-common-subsequence)
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
-- [1405. Longest Happy String](solutions/1405-longest-happy-string)
-- [2086. Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters)
-- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
 <details><summary><b>Hash Table</b> (24)</summary>
@@ -557,6 +561,15 @@ _Last synced: 2026-07-28 10:20 UTC_
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 
 </details>
+<details><summary><b>Stack</b> (5)</summary>
+
+- [20. Valid Parentheses](solutions/0020-valid-parentheses)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [71. Simplify Path](solutions/0071-simplify-path)
+- [394. Decode String](solutions/0394-decode-string)
+- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
+
+</details>
 <details><summary><b>Topological Sort</b> (5)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
@@ -596,14 +609,6 @@ _Last synced: 2026-07-28 10:20 UTC_
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
 - [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-
-</details>
-<details><summary><b>Stack</b> (4)</summary>
-
-- [20. Valid Parentheses](solutions/0020-valid-parentheses)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [394. Decode String](solutions/0394-decode-string)
-- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
 
 </details>
 <details><summary><b>Counting</b> (3)</summary>

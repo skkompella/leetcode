@@ -418,6 +418,14 @@
     ],
     "title": "House Robber II"
   },
+  "insert-interval": {
+    "difficulty": "Medium",
+    "id": "57",
+    "tags": [
+      "Array"
+    ],
+    "title": "Insert Interval"
+  },
   "integer-to-roman": {
     "difficulty": "Medium",
     "id": "12",
@@ -960,6 +968,15 @@
       "Memoization"
     ],
     "title": "Selling Pieces of Wood"
+  },
+  "simplify-path": {
+    "difficulty": "Medium",
+    "id": "71",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "title": "Simplify Path"
   },
   "single-number": {
     "difficulty": "Easy",
