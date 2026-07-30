@@ -359,6 +359,15 @@
     ],
     "title": "Find Median from Data Stream"
   },
+  "find-minimum-in-rotated-sorted-array": {
+    "difficulty": "Medium",
+    "id": "153",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "title": "Find Minimum in Rotated Sorted Array"
+  },
   "flower-planting-with-no-adjacent": {
     "difficulty": "Medium",
     "id": "1042",
