@@ -368,6 +368,15 @@
     ],
     "title": "Find Minimum in Rotated Sorted Array"
   },
+  "find-peak-element": {
+    "difficulty": "Medium",
+    "id": "162",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "title": "Find Peak Element"
+  },
   "flower-planting-with-no-adjacent": {
     "difficulty": "Medium",
     "id": "1042",

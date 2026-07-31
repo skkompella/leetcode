@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**115 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 96 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**116 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 97 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-07-30 10:09 UTC_
+_Last synced: 2026-07-31 10:25 UTC_
 
 ## ✅ Problems
 
@@ -60,6 +60,7 @@ _Last synced: 2026-07-30 10:09 UTC_
 | 151 | [Reverse Words in a String](solutions/0151-reverse-words-in-a-string) | 🟡 Medium | Two Pointers, String | Python |
 | 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 153 | [Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array) | 🟡 Medium | Array, Binary Search | Python |
+| 162 | [Find Peak Element](solutions/0162-find-peak-element) | 🟡 Medium | Array, Binary Search | Python |
 | 191 | [Number of 1 Bits](solutions/0191-number-of-1-bits) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Python |
 | 198 | [House Robber](solutions/0198-house-robber) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
@@ -130,7 +131,7 @@ _Last synced: 2026-07-30 10:09 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (59)</summary>
+<details><summary><b>Array</b> (60)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -160,6 +161,7 @@ _Last synced: 2026-07-30 10:09 UTC_
 - [140. Word Break II](solutions/0140-word-break-ii)
 - [152. Maximum Product Subarray](solutions/0152-maximum-product-subarray)
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
+- [162. Find Peak Element](solutions/0162-find-peak-element)
 - [198. House Robber](solutions/0198-house-robber)
 - [200. Number of Islands](solutions/0200-number-of-islands)
 - [213. House Robber II](solutions/0213-house-robber-ii)
@@ -536,9 +538,10 @@ _Last synced: 2026-07-30 10:09 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Binary Search</b> (5)</summary>
+<details><summary><b>Binary Search</b> (6)</summary>
 
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
+- [162. Find Peak Element](solutions/0162-find-peak-element)
 - [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 - [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
