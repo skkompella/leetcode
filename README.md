@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**116 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 97 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**118 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 99 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-07-31 10:25 UTC_
+_Last synced: 2026-08-01 09:47 UTC_
 
 ## ✅ Problems
 
@@ -61,6 +61,7 @@ _Last synced: 2026-07-31 10:25 UTC_
 | 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 153 | [Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array) | 🟡 Medium | Array, Binary Search | Python |
 | 162 | [Find Peak Element](solutions/0162-find-peak-element) | 🟡 Medium | Array, Binary Search | Python |
+| 167 | [Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | Array, Two Pointers, Binary Search | Python |
 | 191 | [Number of 1 Bits](solutions/0191-number-of-1-bits) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Python |
 | 198 | [House Robber](solutions/0198-house-robber) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
@@ -127,11 +128,12 @@ _Last synced: 2026-07-31 10:25 UTC_
 | 2384 | [Largest Palindromic Number](solutions/2384-largest-palindromic-number) | 🟡 Medium | Hash Table, String, Greedy, Counting | Python |
 | 2385 | [Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected) | 🟡 Medium | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
 | 2850 | [Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid) | 🟡 Medium | Array, Dynamic Programming, Backtracking, Bit Manipulation, Matrix, Bitmask | Python |
+| 2906 | [Construct Product Matrix](solutions/2906-construct-product-matrix) | 🟡 Medium | Array, Matrix, Prefix Sum | Python |
 | 3650 | [Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals) | 🟡 Medium | Graph Theory, Heap (Priority Queue), Shortest Path | Python |
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (60)</summary>
+<details><summary><b>Array</b> (62)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -162,6 +164,7 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [152. Maximum Product Subarray](solutions/0152-maximum-product-subarray)
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
 - [162. Find Peak Element](solutions/0162-find-peak-element)
+- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
 - [198. House Robber](solutions/0198-house-robber)
 - [200. Number of Islands](solutions/0200-number-of-islands)
 - [213. House Robber II](solutions/0213-house-robber-ii)
@@ -193,6 +196,7 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [2016. Maximum Difference Between Increasing Elements](solutions/2016-maximum-difference-between-increasing-elements)
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 
 </details>
 <details><summary><b>Dynamic Programming</b> (35)</summary>
@@ -387,7 +391,7 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
-<details><summary><b>Matrix</b> (15)</summary>
+<details><summary><b>Matrix</b> (16)</summary>
 
 - [36. Valid Sudoku](solutions/0036-valid-sudoku)
 - [48. Rotate Image](solutions/0048-rotate-image)
@@ -404,6 +408,7 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 
 </details>
 <details><summary><b>Union-Find</b> (13)</summary>
@@ -491,6 +496,19 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
+<details><summary><b>Two Pointers</b> (9)</summary>
+
+- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
+- [11. Container With Most Water](solutions/0011-container-with-most-water)
+- [15. 3Sum](solutions/0015-3sum)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
+- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
+- [202. Happy Number](solutions/0202-happy-number)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [809. Expressive Words](solutions/0809-expressive-words)
+
+</details>
 <details><summary><b>Math</b> (8)</summary>
 
 - [2. Add Two Numbers](solutions/0002-add-two-numbers)
@@ -515,16 +533,15 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [721. Accounts Merge](solutions/0721-accounts-merge)
 
 </details>
-<details><summary><b>Two Pointers</b> (8)</summary>
+<details><summary><b>Binary Search</b> (7)</summary>
 
-- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
-- [11. Container With Most Water](solutions/0011-container-with-most-water)
-- [15. 3Sum](solutions/0015-3sum)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
-- [202. Happy Number](solutions/0202-happy-number)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [809. Expressive Words](solutions/0809-expressive-words)
+- [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
+- [162. Find Peak Element](solutions/0162-find-peak-element)
+- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+- [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 
 </details>
 <details><summary><b>Bit Manipulation</b> (7)</summary>
@@ -536,16 +553,6 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
-
-</details>
-<details><summary><b>Binary Search</b> (6)</summary>
-
-- [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
-- [162. Find Peak Element](solutions/0162-find-peak-element)
-- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
-- [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-- [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 
 </details>
 <details><summary><b>Design</b> (5)</summary>
@@ -601,6 +608,14 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [230. Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst)
 
 </details>
+<details><summary><b>Prefix Sum</b> (4)</summary>
+
+- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
+- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+
+</details>
 <details><summary><b>Shortest Path</b> (4)</summary>
 
 - [399. Evaluate Division](solutions/0399-evaluate-division)
@@ -629,13 +644,6 @@ _Last synced: 2026-07-31 10:25 UTC_
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [191. Number of 1 Bits](solutions/0191-number-of-1-bits)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-
-</details>
-<details><summary><b>Prefix Sum</b> (3)</summary>
-
-- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
-- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
 <details><summary><b>Doubly-Linked List</b> (2)</summary>

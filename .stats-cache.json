@@ -188,6 +188,16 @@
     ],
     "title": "Combination Sum II"
   },
+  "construct-product-matrix": {
+    "difficulty": "Medium",
+    "id": "2906",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
+    ],
+    "title": "Construct Product Matrix"
+  },
   "container-with-most-water": {
     "difficulty": "Medium",
     "id": "11",
@@ -1094,6 +1104,16 @@
       "Hash Table"
     ],
     "title": "Two Sum"
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "difficulty": "Medium",
+    "id": "167",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "title": "Two Sum II - Input Array Is Sorted"
   },
   "unique-binary-search-trees": {
     "difficulty": "Medium",
