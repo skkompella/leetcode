@@ -776,6 +776,15 @@
     ],
     "title": "Minimum Path Sum"
   },
+  "minimum-sum-of-mountain-triplets-ii": {
+    "difficulty": "Medium",
+    "id": "2909",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "title": "Minimum Sum of Mountain Triplets II"
+  },
   "minimum-time-to-collect-all-apples-in-a-tree": {
     "difficulty": "Medium",
     "id": "1443",

@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**118 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 99 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**119 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 100 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-08-04 10:25 UTC_
+_Last synced: 2026-08-05 10:21 UTC_
 
 ## ✅ Problems
 
@@ -129,11 +129,12 @@ _Last synced: 2026-08-04 10:25 UTC_
 | 2385 | [Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected) | 🟡 Medium | Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
 | 2850 | [Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid) | 🟡 Medium | Array, Dynamic Programming, Backtracking, Bit Manipulation, Matrix, Bitmask | Python |
 | 2906 | [Construct Product Matrix](solutions/2906-construct-product-matrix) | 🟡 Medium | Array, Matrix, Prefix Sum | Python |
+| 2909 | [Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii) | 🟡 Medium | Array, Prefix Sum | Python |
 | 3650 | [Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals) | 🟡 Medium | Graph Theory, Heap (Priority Queue), Shortest Path | Python |
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (62)</summary>
+<details><summary><b>Array</b> (63)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -197,6 +198,7 @@ _Last synced: 2026-08-04 10:25 UTC_
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 - [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
 
 </details>
 <details><summary><b>Dynamic Programming</b> (35)</summary>
@@ -582,6 +584,15 @@ _Last synced: 2026-08-04 10:25 UTC_
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 
 </details>
+<details><summary><b>Prefix Sum</b> (5)</summary>
+
+- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
+- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
+
+</details>
 <details><summary><b>Stack</b> (5)</summary>
 
 - [20. Valid Parentheses](solutions/0020-valid-parentheses)
@@ -606,14 +617,6 @@ _Last synced: 2026-08-04 10:25 UTC_
 - [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
 - [98. Validate Binary Search Tree](solutions/0098-validate-binary-search-tree)
 - [230. Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst)
-
-</details>
-<details><summary><b>Prefix Sum</b> (4)</summary>
-
-- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
-- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 
 </details>
 <details><summary><b>Shortest Path</b> (4)</summary>
