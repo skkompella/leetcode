@@ -208,6 +208,28 @@
     ],
     "title": "Container With Most Water"
   },
+  "contiguous-array": {
+    "difficulty": "Medium",
+    "id": "525",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "title": "Contiguous Array"
+  },
+  "continuous-subarray-sum": {
+    "difficulty": "Medium",
+    "id": "523",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Prefix Sum",
+      "Pigeonhole Principle"
+    ],
+    "title": "Continuous Subarray Sum"
+  },
   "count-good-nodes-in-binary-tree": {
     "difficulty": "Medium",
     "id": "1448",
@@ -445,6 +467,15 @@
       "Dynamic Programming"
     ],
     "title": "House Robber II"
+  },
+  "image-smoother": {
+    "difficulty": "Easy",
+    "id": "661",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "title": "Image Smoother"
   },
   "insert-interval": {
     "difficulty": "Medium",
@@ -1024,6 +1055,19 @@
     ],
     "title": "Single Number"
   },
+  "sort-characters-by-frequency": {
+    "difficulty": "Medium",
+    "id": "451",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ],
+    "title": "Sort Characters By Frequency"
+  },
   "subarray-sum-equals-k": {
     "difficulty": "Medium",
     "id": "560",
@@ -1033,6 +1077,16 @@
       "Prefix Sum"
     ],
     "title": "Subarray Sum Equals K"
+  },
+  "subarray-sums-divisible-by-k": {
+    "difficulty": "Medium",
+    "id": "974",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "title": "Subarray Sums Divisible by K"
   },
   "subsets": {
     "difficulty": "Medium",

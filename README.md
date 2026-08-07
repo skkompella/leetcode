@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**119 solved** &nbsp;·&nbsp; 🟢 12 Easy &nbsp;·&nbsp; 🟡 100 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**124 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 104 Medium &nbsp;·&nbsp; 🔴 7 Hard
 
-_Last synced: 2026-08-06 10:23 UTC_
+_Last synced: 2026-08-07 08:43 UTC_
 
 ## ✅ Problems
 
@@ -85,13 +85,17 @@ _Last synced: 2026-08-06 10:23 UTC_
 | 399 | [Evaluate Division](solutions/0399-evaluate-division) | 🟡 Medium | Array, String, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Shortest Path | Python |
 | 417 | [Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Matrix | Python |
 | 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement) | 🟡 Medium | Hash Table, String, Sliding Window | Python |
+| 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency) | 🟡 Medium | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting | Python |
 | 460 | [LFU Cache](solutions/0460-lfu-cache) | 🔴 Hard | Hash Table, Linked List, Design, Doubly-Linked List | Python |
 | 468 | [Validate IP Address](solutions/0468-validate-ip-address) | 🟡 Medium | String | Python |
 | 498 | [Diagonal Traverse](solutions/0498-diagonal-traverse) | 🟡 Medium | Array, Matrix, Simulation | Python |
+| 523 | [Continuous Subarray Sum](solutions/0523-continuous-subarray-sum) | 🟡 Medium | Array, Hash Table, Math, Prefix Sum, Pigeonhole Principle | Python |
+| 525 | [Contiguous Array](solutions/0525-contiguous-array) | 🟡 Medium | Array, Hash Table, Prefix Sum | Python |
 | 547 | [Number of Provinces](solutions/0547-number-of-provinces) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | Python |
 | 621 | [Task Scheduler](solutions/0621-task-scheduler) | 🟡 Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Python |
 | 622 | [Design Circular Queue](solutions/0622-design-circular-queue) | 🟡 Medium | Array, Linked List, Design, Queue | Python |
+| 661 | [Image Smoother](solutions/0661-image-smoother) | 🟢 Easy | Array, Matrix | Python |
 | 684 | [Redundant Connection](solutions/0684-redundant-connection) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
 | 695 | [Max Area of Island](solutions/0695-max-area-of-island) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python |
 | 718 | [Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray) | 🟡 Medium | Array, Binary Search, Dynamic Programming, Sliding Window, Rolling Hash, Hash Function | Python |
@@ -108,6 +112,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 | 875 | [Koko Eating Bananas](solutions/0875-koko-eating-bananas) | 🟡 Medium | Array, Binary Search | Python |
 | 886 | [Possible Bipartition](solutions/0886-possible-bipartition) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
 | 947 | [Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column) | 🟡 Medium | Hash Table, Depth-First Search, Union-Find, Graph Theory | Python |
+| 974 | [Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | Python |
 | 990 | [Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations) | 🟡 Medium | Array, String, Union-Find, Graph Theory | Python |
 | 994 | [Rotting Oranges](solutions/0994-rotting-oranges) | 🟡 Medium | Array, Breadth-First Search, Matrix | Python |
 | 1004 | [Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii) | 🟡 Medium | Array, Binary Search, Sliding Window, Prefix Sum | Python |
@@ -134,7 +139,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (63)</summary>
+<details><summary><b>Array</b> (67)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -178,15 +183,19 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [399. Evaluate Division](solutions/0399-evaluate-division)
 - [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
 - [498. Diagonal Traverse](solutions/0498-diagonal-traverse)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+- [525. Contiguous Array](solutions/0525-contiguous-array)
 - [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
 - [622. Design Circular Queue](solutions/0622-design-circular-queue)
+- [661. Image Smoother](solutions/0661-image-smoother)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
 - [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 - [721. Accounts Merge](solutions/0721-accounts-merge)
 - [746. Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs)
 - [809. Expressive Words](solutions/0809-expressive-words)
 - [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
+- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
 - [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
 - [994. Rotting Oranges](solutions/0994-rotting-oranges)
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
@@ -275,7 +284,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>String</b> (30)</summary>
+<details><summary><b>String</b> (31)</summary>
 
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
@@ -297,6 +306,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [394. Decode String](solutions/0394-decode-string)
 - [399. Evaluate Division](solutions/0399-evaluate-division)
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
 - [468. Validate IP Address](solutions/0468-validate-ip-address)
 - [721. Accounts Merge](solutions/0721-accounts-merge)
 - [809. Expressive Words](solutions/0809-expressive-words)
@@ -342,7 +352,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>Hash Table</b> (24)</summary>
+<details><summary><b>Hash Table</b> (28)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
@@ -358,12 +368,16 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
 - [355. Design Twitter](solutions/0355-design-twitter)
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
 - [460. LFU Cache](solutions/0460-lfu-cache)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+- [525. Contiguous Array](solutions/0525-contiguous-array)
 - [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
 - [721. Accounts Merge](solutions/0721-accounts-merge)
 - [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
 - [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
+- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
@@ -393,7 +407,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
-<details><summary><b>Matrix</b> (16)</summary>
+<details><summary><b>Matrix</b> (17)</summary>
 
 - [36. Valid Sudoku](solutions/0036-valid-sudoku)
 - [48. Rotate Image](solutions/0048-rotate-image)
@@ -405,6 +419,7 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
 - [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
 - [498. Diagonal Traverse](solutions/0498-diagonal-traverse)
+- [661. Image Smoother](solutions/0661-image-smoother)
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
 - [994. Rotting Oranges](solutions/0994-rotting-oranges)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
@@ -443,6 +458,20 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [797. All Paths From Source to Target](solutions/0797-all-paths-from-source-to-target)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
+
+</details>
+<details><summary><b>Heap (Priority Queue)</b> (10)</summary>
+
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [355. Design Twitter](solutions/0355-design-twitter)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
+- [621. Task Scheduler](solutions/0621-task-scheduler)
+- [743. Network Delay Time](solutions/0743-network-delay-time)
+- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
+- [1405. Longest Happy String](solutions/1405-longest-happy-string)
+- [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
 <details><summary><b>Tree</b> (10)</summary>
@@ -485,17 +514,30 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Heap (Priority Queue)</b> (9)</summary>
+<details><summary><b>Math</b> (9)</summary>
 
+- [2. Add Two Numbers](solutions/0002-add-two-numbers)
+- [12. Integer to Roman](solutions/0012-integer-to-roman)
+- [13. Roman to Integer](solutions/0013-roman-to-integer)
+- [48. Rotate Image](solutions/0048-rotate-image)
+- [62. Unique Paths](solutions/0062-unique-paths)
+- [70. Climbing Stairs](solutions/0070-climbing-stairs)
+- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
+- [202. Happy Number](solutions/0202-happy-number)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+
+</details>
+<details><summary><b>Sorting</b> (9)</summary>
+
+- [15. 3Sum](solutions/0015-3sum)
+- [49. Group Anagrams](solutions/0049-group-anagrams)
+- [56. Merge Intervals](solutions/0056-merge-intervals)
 - [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
 - [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [355. Design Twitter](solutions/0355-design-twitter)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
 - [621. Task Scheduler](solutions/0621-task-scheduler)
-- [743. Network Delay Time](solutions/0743-network-delay-time)
-- [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
-- [1405. Longest Happy String](solutions/1405-longest-happy-string)
-- [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
 
 </details>
 <details><summary><b>Two Pointers</b> (9)</summary>
@@ -511,28 +553,16 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [809. Expressive Words](solutions/0809-expressive-words)
 
 </details>
-<details><summary><b>Math</b> (8)</summary>
+<details><summary><b>Prefix Sum</b> (8)</summary>
 
-- [2. Add Two Numbers](solutions/0002-add-two-numbers)
-- [12. Integer to Roman](solutions/0012-integer-to-roman)
-- [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [48. Rotate Image](solutions/0048-rotate-image)
-- [62. Unique Paths](solutions/0062-unique-paths)
-- [70. Climbing Stairs](solutions/0070-climbing-stairs)
-- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
-- [202. Happy Number](solutions/0202-happy-number)
-
-</details>
-<details><summary><b>Sorting</b> (8)</summary>
-
-- [15. 3Sum](solutions/0015-3sum)
-- [49. Group Anagrams](solutions/0049-group-anagrams)
-- [56. Merge Intervals](solutions/0056-merge-intervals)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [621. Task Scheduler](solutions/0621-task-scheduler)
-- [721. Accounts Merge](solutions/0721-accounts-merge)
+- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+- [525. Contiguous Array](solutions/0525-contiguous-array)
+- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
+- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
 
 </details>
 <details><summary><b>Binary Search</b> (7)</summary>
@@ -584,15 +614,6 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
 
 </details>
-<details><summary><b>Prefix Sum</b> (5)</summary>
-
-- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
-- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
-- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
-
-</details>
 <details><summary><b>Stack</b> (5)</summary>
 
 - [20. Valid Parentheses](solutions/0020-valid-parentheses)
@@ -619,6 +640,14 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [230. Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst)
 
 </details>
+<details><summary><b>Counting</b> (4)</summary>
+
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
+- [621. Task Scheduler](solutions/0621-task-scheduler)
+- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
+
+</details>
 <details><summary><b>Shortest Path</b> (4)</summary>
 
 - [399. Evaluate Division](solutions/0399-evaluate-division)
@@ -635,18 +664,17 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
-<details><summary><b>Counting</b> (3)</summary>
-
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [621. Task Scheduler](solutions/0621-task-scheduler)
-- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
-
-</details>
 <details><summary><b>Divide and Conquer</b> (3)</summary>
 
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [191. Number of 1 Bits](solutions/0191-number-of-1-bits)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+
+</details>
+<details><summary><b>Bucket Sort</b> (2)</summary>
+
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
 
 </details>
 <details><summary><b>Doubly-Linked List</b> (2)</summary>
@@ -678,11 +706,6 @@ _Last synced: 2026-08-06 10:23 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
-<details><summary><b>Bucket Sort</b> (1)</summary>
-
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-
-</details>
 <details><summary><b>Combinatorics</b> (1)</summary>
 
 - [62. Unique Paths](solutions/0062-unique-paths)
@@ -706,6 +729,11 @@ _Last synced: 2026-08-06 10:23 UTC_
 <details><summary><b>Monotonic Stack</b> (1)</summary>
 
 - [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+
+</details>
+<details><summary><b>Pigeonhole Principle</b> (1)</summary>
+
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
 
 </details>
 <details><summary><b>Queue</b> (1)</summary>
