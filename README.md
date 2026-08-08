@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**124 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 104 Medium &nbsp;·&nbsp; 🔴 7 Hard
+**127 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 105 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-07 08:43 UTC_
+_Last synced: 2026-08-08 08:25 UTC_
 
 ## ✅ Problems
 
@@ -41,6 +41,8 @@ _Last synced: 2026-08-07 08:43 UTC_
 | 72 | [Edit Distance](solutions/0072-edit-distance) | 🟡 Medium | String, Dynamic Programming | Python |
 | 78 | [Subsets](solutions/0078-subsets) | 🟡 Medium | Array, Backtracking, Bit Manipulation | Python |
 | 79 | [Word Search](solutions/0079-word-search) | 🟡 Medium | Array, String, Backtracking, Depth-First Search, Matrix | Python |
+| 84 | [Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram) | 🔴 Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python |
+| 85 | [Maximal Rectangle](solutions/0085-maximal-rectangle) | 🔴 Hard | Array, Dynamic Programming, Stack, Matrix, Monotonic Stack | Python |
 | 91 | [Decode Ways](solutions/0091-decode-ways) | 🟡 Medium | String, Dynamic Programming | Python |
 | 95 | [Unique Binary Search Trees II](solutions/0095-unique-binary-search-trees-ii) | 🟡 Medium | Dynamic Programming, Backtracking, Tree, Binary Search Tree, Binary Tree | Python |
 | 96 | [Unique Binary Search Trees](solutions/0096-unique-binary-search-trees) | 🟡 Medium | Math, Dynamic Programming, Tree, Binary Search Tree, Binary Tree | Python |
@@ -121,6 +123,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 | 1047 | [Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String, Stack | Python |
 | 1143 | [Longest Common Subsequence](solutions/1143-longest-common-subsequence) | 🟡 Medium | String, Dynamic Programming | Python |
 | 1219 | [Path with Maximum Gold](solutions/1219-path-with-maximum-gold) | 🟡 Medium | Array, Backtracking, Matrix | Python |
+| 1314 | [Matrix Block Sum](solutions/1314-matrix-block-sum) | 🟡 Medium | Array, Matrix, Prefix Sum | Python |
 | 1386 | [Cinema Seat Allocation](solutions/1386-cinema-seat-allocation) | 🟡 Medium | Array, Hash Table, Greedy, Bit Manipulation | Python |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) | 🟡 Medium | String, Bit Manipulation, Simulation | Python |
 | 1405 | [Longest Happy String](solutions/1405-longest-happy-string) | 🟡 Medium | String, Greedy, Heap (Priority Queue) | Python |
@@ -139,7 +142,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (67)</summary>
+<details><summary><b>Array</b> (70)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -159,6 +162,8 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
 - [78. Subsets](solutions/0078-subsets)
 - [79. Word Search](solutions/0079-word-search)
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
 - [120. Triangle](solutions/0120-triangle)
 - [121. Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock)
 - [122. Best Time to Buy and Sell Stock II](solutions/0122-best-time-to-buy-and-sell-stock-ii)
@@ -201,6 +206,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 - [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
+- [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2016. Maximum Difference Between Increasing Elements](solutions/2016-maximum-difference-between-increasing-elements)
@@ -210,7 +216,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
 
 </details>
-<details><summary><b>Dynamic Programming</b> (35)</summary>
+<details><summary><b>Dynamic Programming</b> (36)</summary>
 
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
 - [22. Generate Parentheses](solutions/0022-generate-parentheses)
@@ -223,6 +229,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
 - [70. Climbing Stairs](solutions/0070-climbing-stairs)
 - [72. Edit Distance](solutions/0072-edit-distance)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
 - [91. Decode Ways](solutions/0091-decode-ways)
 - [95. Unique Binary Search Trees II](solutions/0095-unique-binary-search-trees-ii)
 - [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
@@ -407,13 +414,14 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
-<details><summary><b>Matrix</b> (17)</summary>
+<details><summary><b>Matrix</b> (19)</summary>
 
 - [36. Valid Sudoku](solutions/0036-valid-sudoku)
 - [48. Rotate Image](solutions/0048-rotate-image)
 - [63. Unique Paths II](solutions/0063-unique-paths-ii)
 - [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
 - [79. Word Search](solutions/0079-word-search)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
 - [130. Surrounded Regions](solutions/0130-surrounded-regions)
 - [200. Number of Islands](solutions/0200-number-of-islands)
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
@@ -423,6 +431,7 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
 - [994. Rotting Oranges](solutions/0994-rotting-oranges)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
+- [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 - [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
@@ -527,6 +536,19 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
 
 </details>
+<details><summary><b>Prefix Sum</b> (9)</summary>
+
+- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+- [525. Contiguous Array](solutions/0525-contiguous-array)
+- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
+- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+- [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
+
+</details>
 <details><summary><b>Sorting</b> (9)</summary>
 
 - [15. 3Sum](solutions/0015-3sum)
@@ -553,18 +575,6 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [809. Expressive Words](solutions/0809-expressive-words)
 
 </details>
-<details><summary><b>Prefix Sum</b> (8)</summary>
-
-- [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
-- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
-- [525. Contiguous Array](solutions/0525-contiguous-array)
-- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
-- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
-- [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
-
-</details>
 <details><summary><b>Binary Search</b> (7)</summary>
 
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
@@ -585,6 +595,17 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
+
+</details>
+<details><summary><b>Stack</b> (7)</summary>
+
+- [20. Valid Parentheses](solutions/0020-valid-parentheses)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [71. Simplify Path](solutions/0071-simplify-path)
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
+- [394. Decode String](solutions/0394-decode-string)
+- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
 
 </details>
 <details><summary><b>Design</b> (5)</summary>
@@ -612,15 +633,6 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [140. Word Break II](solutions/0140-word-break-ii)
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
 - [2312. Selling Pieces of Wood](solutions/2312-selling-pieces-of-wood)
-
-</details>
-<details><summary><b>Stack</b> (5)</summary>
-
-- [20. Valid Parentheses](solutions/0020-valid-parentheses)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [71. Simplify Path](solutions/0071-simplify-path)
-- [394. Decode String](solutions/0394-decode-string)
-- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
 
 </details>
 <details><summary><b>Topological Sort</b> (5)</summary>
@@ -669,6 +681,13 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [191. Number of 1 Bits](solutions/0191-number-of-1-bits)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+
+</details>
+<details><summary><b>Monotonic Stack</b> (3)</summary>
+
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
 
 </details>
 <details><summary><b>Bucket Sort</b> (2)</summary>
@@ -726,11 +745,6 @@ _Last synced: 2026-08-07 08:43 UTC_
 - [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 
 </details>
-<details><summary><b>Monotonic Stack</b> (1)</summary>
-
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-
-</details>
 <details><summary><b>Pigeonhole Principle</b> (1)</summary>
 
 - [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
@@ -744,6 +758,11 @@ _Last synced: 2026-08-07 08:43 UTC_
 <details><summary><b>Quickselect</b> (1)</summary>
 
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+
+</details>
+<details><summary><b>Range Minimum/Maximum Query</b> (1)</summary>
+
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
 
 </details>
 <details><summary><b>Rolling Hash</b> (1)</summary>

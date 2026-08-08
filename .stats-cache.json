@@ -576,6 +576,17 @@
     ],
     "title": "Largest Palindromic Number"
   },
+  "largest-rectangle-in-histogram": {
+    "difficulty": "Hard",
+    "id": "84",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack",
+      "Range Minimum/Maximum Query"
+    ],
+    "title": "Largest Rectangle in Histogram"
+  },
   "lfu-cache": {
     "difficulty": "Hard",
     "id": "460",
@@ -672,6 +683,16 @@
     ],
     "title": "LRU Cache"
   },
+  "matrix-block-sum": {
+    "difficulty": "Medium",
+    "id": "1314",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
+    ],
+    "title": "Matrix Block Sum"
+  },
   "max-area-of-island": {
     "difficulty": "Medium",
     "id": "695",
@@ -694,6 +715,18 @@
       "Prefix Sum"
     ],
     "title": "Max Consecutive Ones III"
+  },
+  "maximal-rectangle": {
+    "difficulty": "Hard",
+    "id": "85",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Stack",
+      "Matrix",
+      "Monotonic Stack"
+    ],
+    "title": "Maximal Rectangle"
   },
   "maximum-difference-between-increasing-elements": {
     "difficulty": "Easy",
