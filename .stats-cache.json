@@ -272,6 +272,16 @@
     ],
     "title": "Course Schedule II"
   },
+  "daily-temperatures": {
+    "difficulty": "Medium",
+    "id": "739",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "title": "Daily Temperatures"
+  },
   "decode-string": {
     "difficulty": "Medium",
     "id": "394",
@@ -727,6 +737,16 @@
       "Monotonic Stack"
     ],
     "title": "Maximal Rectangle"
+  },
+  "maximal-square": {
+    "difficulty": "Medium",
+    "id": "221",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "title": "Maximal Square"
   },
   "maximum-difference-between-increasing-elements": {
     "difficulty": "Easy",

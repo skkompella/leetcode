@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**127 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 105 Medium &nbsp;·&nbsp; 🔴 9 Hard
+**129 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 107 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-08 08:25 UTC_
+_Last synced: 2026-08-09 08:27 UTC_
 
 ## ✅ Problems
 
@@ -72,6 +72,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 | 207 | [Course Schedule](solutions/0207-course-schedule) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort | Python |
 | 210 | [Course Schedule II](solutions/0210-course-schedule-ii) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort | Python |
 | 213 | [House Robber II](solutions/0213-house-robber-ii) | 🟡 Medium | Array, Dynamic Programming | Python |
+| 221 | [Maximal Square](solutions/0221-maximal-square) | 🟡 Medium | Array, Dynamic Programming, Matrix | Python |
 | 230 | [Kth Smallest Element in a BST](solutions/0230-kth-smallest-element-in-a-bst) | 🟡 Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python |
 | 238 | [Product of Array Except Self](solutions/0238-product-of-array-except-self) | 🟡 Medium | Array, Prefix Sum | Python |
 | 295 | [Find Median from Data Stream](solutions/0295-find-median-from-data-stream) | 🔴 Hard | Two Pointers, Design, Sorting, Heap (Priority Queue), Data Stream | Python |
@@ -102,6 +103,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 | 695 | [Max Area of Island](solutions/0695-max-area-of-island) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python |
 | 718 | [Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray) | 🟡 Medium | Array, Binary Search, Dynamic Programming, Sliding Window, Rolling Hash, Hash Function | Python |
 | 721 | [Accounts Merge](solutions/0721-accounts-merge) | 🟡 Medium | Array, Hash Table, String, Depth-First Search, Breadth-First Search, Union-Find, Sorting | Python |
+| 739 | [Daily Temperatures](solutions/0739-daily-temperatures) | 🟡 Medium | Array, Stack, Monotonic Stack | Python |
 | 743 | [Network Delay Time](solutions/0743-network-delay-time) | 🟡 Medium | Depth-First Search, Breadth-First Search, Graph Theory, Heap (Priority Queue), Shortest Path | Python |
 | 746 | [Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs) | 🟢 Easy | Array, Dynamic Programming | Python |
 | 785 | [Is Graph Bipartite?](solutions/0785-is-graph-bipartite) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
@@ -142,7 +144,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (70)</summary>
+<details><summary><b>Array</b> (72)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -179,6 +181,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [198. House Robber](solutions/0198-house-robber)
 - [200. Number of Islands](solutions/0200-number-of-islands)
 - [213. House Robber II](solutions/0213-house-robber-ii)
+- [221. Maximal Square](solutions/0221-maximal-square)
 - [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
 - [309. Best Time to Buy and Sell Stock with Cooldown](solutions/0309-best-time-to-buy-and-sell-stock-with-cooldown)
 - [322. Coin Change](solutions/0322-coin-change)
@@ -197,6 +200,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [695. Max Area of Island](solutions/0695-max-area-of-island)
 - [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
 - [721. Accounts Merge](solutions/0721-accounts-merge)
+- [739. Daily Temperatures](solutions/0739-daily-temperatures)
 - [746. Min Cost Climbing Stairs](solutions/0746-min-cost-climbing-stairs)
 - [809. Expressive Words](solutions/0809-expressive-words)
 - [875. Koko Eating Bananas](solutions/0875-koko-eating-bananas)
@@ -216,7 +220,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
 
 </details>
-<details><summary><b>Dynamic Programming</b> (36)</summary>
+<details><summary><b>Dynamic Programming</b> (37)</summary>
 
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
 - [22. Generate Parentheses](solutions/0022-generate-parentheses)
@@ -243,6 +247,7 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [152. Maximum Product Subarray](solutions/0152-maximum-product-subarray)
 - [198. House Robber](solutions/0198-house-robber)
 - [213. House Robber II](solutions/0213-house-robber-ii)
+- [221. Maximal Square](solutions/0221-maximal-square)
 - [309. Best Time to Buy and Sell Stock with Cooldown](solutions/0309-best-time-to-buy-and-sell-stock-with-cooldown)
 - [322. Coin Change](solutions/0322-coin-change)
 - [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
@@ -391,6 +396,30 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
+<details><summary><b>Matrix</b> (20)</summary>
+
+- [36. Valid Sudoku](solutions/0036-valid-sudoku)
+- [48. Rotate Image](solutions/0048-rotate-image)
+- [63. Unique Paths II](solutions/0063-unique-paths-ii)
+- [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
+- [79. Word Search](solutions/0079-word-search)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
+- [130. Surrounded Regions](solutions/0130-surrounded-regions)
+- [200. Number of Islands](solutions/0200-number-of-islands)
+- [221. Maximal Square](solutions/0221-maximal-square)
+- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
+- [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
+- [498. Diagonal Traverse](solutions/0498-diagonal-traverse)
+- [661. Image Smoother](solutions/0661-image-smoother)
+- [695. Max Area of Island](solutions/0695-max-area-of-island)
+- [994. Rotting Oranges](solutions/0994-rotting-oranges)
+- [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
+- [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
+- [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
+- [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
+- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
+
+</details>
 <details><summary><b>Graph Theory</b> (19)</summary>
 
 - [207. Course Schedule](solutions/0207-course-schedule)
@@ -412,29 +441,6 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
 - [1042. Flower Planting With No Adjacent](solutions/1042-flower-planting-with-no-adjacent)
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
-
-</details>
-<details><summary><b>Matrix</b> (19)</summary>
-
-- [36. Valid Sudoku](solutions/0036-valid-sudoku)
-- [48. Rotate Image](solutions/0048-rotate-image)
-- [63. Unique Paths II](solutions/0063-unique-paths-ii)
-- [64. Minimum Path Sum](solutions/0064-minimum-path-sum)
-- [79. Word Search](solutions/0079-word-search)
-- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
-- [130. Surrounded Regions](solutions/0130-surrounded-regions)
-- [200. Number of Islands](solutions/0200-number-of-islands)
-- [329. Longest Increasing Path in a Matrix](solutions/0329-longest-increasing-path-in-a-matrix)
-- [417. Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow)
-- [498. Diagonal Traverse](solutions/0498-diagonal-traverse)
-- [661. Image Smoother](solutions/0661-image-smoother)
-- [695. Max Area of Island](solutions/0695-max-area-of-island)
-- [994. Rotting Oranges](solutions/0994-rotting-oranges)
-- [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
-- [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
-- [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
-- [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
-- [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 
 </details>
 <details><summary><b>Union-Find</b> (13)</summary>
@@ -575,6 +581,18 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [809. Expressive Words](solutions/0809-expressive-words)
 
 </details>
+<details><summary><b>Stack</b> (8)</summary>
+
+- [20. Valid Parentheses](solutions/0020-valid-parentheses)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [71. Simplify Path](solutions/0071-simplify-path)
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
+- [394. Decode String](solutions/0394-decode-string)
+- [739. Daily Temperatures](solutions/0739-daily-temperatures)
+- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
+
+</details>
 <details><summary><b>Binary Search</b> (7)</summary>
 
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
@@ -595,17 +613,6 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
-
-</details>
-<details><summary><b>Stack</b> (7)</summary>
-
-- [20. Valid Parentheses](solutions/0020-valid-parentheses)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [71. Simplify Path](solutions/0071-simplify-path)
-- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
-- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
-- [394. Decode String](solutions/0394-decode-string)
-- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
 
 </details>
 <details><summary><b>Design</b> (5)</summary>
@@ -660,6 +667,14 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
+<details><summary><b>Monotonic Stack</b> (4)</summary>
+
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
+- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
+- [739. Daily Temperatures](solutions/0739-daily-temperatures)
+
+</details>
 <details><summary><b>Shortest Path</b> (4)</summary>
 
 - [399. Evaluate Division](solutions/0399-evaluate-division)
@@ -681,13 +696,6 @@ _Last synced: 2026-08-08 08:25 UTC_
 - [53. Maximum Subarray](solutions/0053-maximum-subarray)
 - [191. Number of 1 Bits](solutions/0191-number-of-1-bits)
 - [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-
-</details>
-<details><summary><b>Monotonic Stack</b> (3)</summary>
-
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
-- [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
 
 </details>
 <details><summary><b>Bucket Sort</b> (2)</summary>
