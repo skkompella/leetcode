@@ -1121,6 +1121,16 @@
     ],
     "title": "Sort Characters By Frequency"
   },
+  "sort-the-matrix-diagonally": {
+    "difficulty": "Medium",
+    "id": "1329",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Matrix"
+    ],
+    "title": "Sort the Matrix Diagonally"
+  },
   "subarray-sum-equals-k": {
     "difficulty": "Medium",
     "id": "560",

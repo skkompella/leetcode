@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**129 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 107 Medium &nbsp;·&nbsp; 🔴 9 Hard
+**130 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 108 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-13 08:59 UTC_
+_Last synced: 2026-08-14 08:55 UTC_
 
 ## ✅ Problems
 
@@ -126,6 +126,7 @@ _Last synced: 2026-08-13 08:59 UTC_
 | 1143 | [Longest Common Subsequence](solutions/1143-longest-common-subsequence) | 🟡 Medium | String, Dynamic Programming | Python |
 | 1219 | [Path with Maximum Gold](solutions/1219-path-with-maximum-gold) | 🟡 Medium | Array, Backtracking, Matrix | Python |
 | 1314 | [Matrix Block Sum](solutions/1314-matrix-block-sum) | 🟡 Medium | Array, Matrix, Prefix Sum | Python |
+| 1329 | [Sort the Matrix Diagonally](solutions/1329-sort-the-matrix-diagonally) | 🟡 Medium | Array, Sorting, Matrix | Python |
 | 1386 | [Cinema Seat Allocation](solutions/1386-cinema-seat-allocation) | 🟡 Medium | Array, Hash Table, Greedy, Bit Manipulation | Python |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) | 🟡 Medium | String, Bit Manipulation, Simulation | Python |
 | 1405 | [Longest Happy String](solutions/1405-longest-happy-string) | 🟡 Medium | String, Greedy, Heap (Priority Queue) | Python |
@@ -144,7 +145,7 @@ _Last synced: 2026-08-13 08:59 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (72)</summary>
+<details><summary><b>Array</b> (73)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -211,6 +212,7 @@ _Last synced: 2026-08-13 08:59 UTC_
 - [1011. Capacity To Ship Packages Within D Days](solutions/1011-capacity-to-ship-packages-within-d-days)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
 - [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
+- [1329. Sort the Matrix Diagonally](solutions/1329-sort-the-matrix-diagonally)
 - [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2016. Maximum Difference Between Increasing Elements](solutions/2016-maximum-difference-between-increasing-elements)
@@ -396,7 +398,7 @@ _Last synced: 2026-08-13 08:59 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>Matrix</b> (20)</summary>
+<details><summary><b>Matrix</b> (21)</summary>
 
 - [36. Valid Sudoku](solutions/0036-valid-sudoku)
 - [48. Rotate Image](solutions/0048-rotate-image)
@@ -415,6 +417,7 @@ _Last synced: 2026-08-13 08:59 UTC_
 - [994. Rotting Oranges](solutions/0994-rotting-oranges)
 - [1219. Path with Maximum Gold](solutions/1219-path-with-maximum-gold)
 - [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
+- [1329. Sort the Matrix Diagonally](solutions/1329-sort-the-matrix-diagonally)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 - [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
@@ -489,6 +492,20 @@ _Last synced: 2026-08-13 08:59 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
+<details><summary><b>Sorting</b> (10)</summary>
+
+- [15. 3Sum](solutions/0015-3sum)
+- [49. Group Anagrams](solutions/0049-group-anagrams)
+- [56. Merge Intervals](solutions/0056-merge-intervals)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
+- [621. Task Scheduler](solutions/0621-task-scheduler)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
+- [1329. Sort the Matrix Diagonally](solutions/1329-sort-the-matrix-diagonally)
+
+</details>
 <details><summary><b>Tree</b> (10)</summary>
 
 - [95. Unique Binary Search Trees II](solutions/0095-unique-binary-search-trees-ii)
@@ -553,19 +570,6 @@ _Last synced: 2026-08-13 08:59 UTC_
 - [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
 - [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 - [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
-
-</details>
-<details><summary><b>Sorting</b> (9)</summary>
-
-- [15. 3Sum](solutions/0015-3sum)
-- [49. Group Anagrams](solutions/0049-group-anagrams)
-- [56. Merge Intervals](solutions/0056-merge-intervals)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
-- [621. Task Scheduler](solutions/0621-task-scheduler)
-- [721. Accounts Merge](solutions/0721-accounts-merge)
 
 </details>
 <details><summary><b>Two Pointers</b> (9)</summary>
