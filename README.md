@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**130 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 108 Medium &nbsp;·&nbsp; 🔴 9 Hard
+**131 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 109 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-14 08:55 UTC_
+_Last synced: 2026-08-17 20:32 UTC_
 
 ## ✅ Problems
 
@@ -64,6 +64,7 @@ _Last synced: 2026-08-14 08:55 UTC_
 | 153 | [Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array) | 🟡 Medium | Array, Binary Search | Python |
 | 162 | [Find Peak Element](solutions/0162-find-peak-element) | 🟡 Medium | Array, Binary Search | Python |
 | 167 | [Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | Array, Two Pointers, Binary Search | Python |
+| 189 | [Rotate Array](solutions/0189-rotate-array) | 🟡 Medium | Array, Math, Two Pointers | Python |
 | 191 | [Number of 1 Bits](solutions/0191-number-of-1-bits) | 🟢 Easy | Divide and Conquer, Bit Manipulation | Python |
 | 198 | [House Robber](solutions/0198-house-robber) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 199 | [Binary Tree Right Side View](solutions/0199-binary-tree-right-side-view) | 🟡 Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python |
@@ -145,7 +146,7 @@ _Last synced: 2026-08-14 08:55 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (73)</summary>
+<details><summary><b>Array</b> (74)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -179,6 +180,7 @@ _Last synced: 2026-08-14 08:55 UTC_
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
 - [162. Find Peak Element](solutions/0162-find-peak-element)
 - [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
+- [189. Rotate Array](solutions/0189-rotate-array)
 - [198. House Robber](solutions/0198-house-robber)
 - [200. Number of Islands](solutions/0200-number-of-islands)
 - [213. House Robber II](solutions/0213-house-robber-ii)
@@ -492,6 +494,20 @@ _Last synced: 2026-08-14 08:55 UTC_
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
 
 </details>
+<details><summary><b>Math</b> (10)</summary>
+
+- [2. Add Two Numbers](solutions/0002-add-two-numbers)
+- [12. Integer to Roman](solutions/0012-integer-to-roman)
+- [13. Roman to Integer](solutions/0013-roman-to-integer)
+- [48. Rotate Image](solutions/0048-rotate-image)
+- [62. Unique Paths](solutions/0062-unique-paths)
+- [70. Climbing Stairs](solutions/0070-climbing-stairs)
+- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
+- [189. Rotate Array](solutions/0189-rotate-array)
+- [202. Happy Number](solutions/0202-happy-number)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+
+</details>
 <details><summary><b>Sorting</b> (10)</summary>
 
 - [15. 3Sum](solutions/0015-3sum)
@@ -520,6 +536,20 @@ _Last synced: 2026-08-14 08:55 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
+<details><summary><b>Two Pointers</b> (10)</summary>
+
+- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
+- [11. Container With Most Water](solutions/0011-container-with-most-water)
+- [15. 3Sum](solutions/0015-3sum)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
+- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
+- [189. Rotate Array](solutions/0189-rotate-array)
+- [202. Happy Number](solutions/0202-happy-number)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [809. Expressive Words](solutions/0809-expressive-words)
+
+</details>
 <details><summary><b>Binary Tree</b> (9)</summary>
 
 - [95. Unique Binary Search Trees II](solutions/0095-unique-binary-search-trees-ii)
@@ -546,19 +576,6 @@ _Last synced: 2026-08-14 08:55 UTC_
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 
 </details>
-<details><summary><b>Math</b> (9)</summary>
-
-- [2. Add Two Numbers](solutions/0002-add-two-numbers)
-- [12. Integer to Roman](solutions/0012-integer-to-roman)
-- [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [48. Rotate Image](solutions/0048-rotate-image)
-- [62. Unique Paths](solutions/0062-unique-paths)
-- [70. Climbing Stairs](solutions/0070-climbing-stairs)
-- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
-- [202. Happy Number](solutions/0202-happy-number)
-- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
-
-</details>
 <details><summary><b>Prefix Sum</b> (9)</summary>
 
 - [238. Product of Array Except Self](solutions/0238-product-of-array-except-self)
@@ -570,19 +587,6 @@ _Last synced: 2026-08-14 08:55 UTC_
 - [1314. Matrix Block Sum](solutions/1314-matrix-block-sum)
 - [2906. Construct Product Matrix](solutions/2906-construct-product-matrix)
 - [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
-
-</details>
-<details><summary><b>Two Pointers</b> (9)</summary>
-
-- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
-- [11. Container With Most Water](solutions/0011-container-with-most-water)
-- [15. 3Sum](solutions/0015-3sum)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
-- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
-- [202. Happy Number](solutions/0202-happy-number)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [809. Expressive Words](solutions/0809-expressive-words)
 
 </details>
 <details><summary><b>Stack</b> (8)</summary>

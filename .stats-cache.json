@@ -1049,6 +1049,16 @@
     ],
     "title": "Roman to Integer"
   },
+  "rotate-array": {
+    "difficulty": "Medium",
+    "id": "189",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ],
+    "title": "Rotate Array"
+  },
   "rotate-image": {
     "difficulty": "Medium",
     "id": "48",
