@@ -6,7 +6,7 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 **131 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 109 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-20 08:22 UTC_
+_Last synced: 2026-08-21 08:24 UTC_
 
 ## ✅ Problems
 
