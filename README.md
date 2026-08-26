@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**131 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 109 Medium &nbsp;·&nbsp; 🔴 9 Hard
+**133 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 111 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-25 08:27 UTC_
+_Last synced: 2026-08-26 08:28 UTC_
 
 ## ✅ Problems
 
@@ -89,6 +89,7 @@ _Last synced: 2026-08-25 08:27 UTC_
 | 399 | [Evaluate Division](solutions/0399-evaluate-division) | 🟡 Medium | Array, String, Depth-First Search, Breadth-First Search, Union-Find, Graph Theory, Shortest Path | Python |
 | 417 | [Pacific Atlantic Water Flow](solutions/0417-pacific-atlantic-water-flow) | 🟡 Medium | Array, Depth-First Search, Breadth-First Search, Matrix | Python |
 | 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement) | 🟡 Medium | Hash Table, String, Sliding Window | Python |
+| 438 | [Find All Anagrams in a String](solutions/0438-find-all-anagrams-in-a-string) | 🟡 Medium | Hash Table, String, Sliding Window | Python |
 | 451 | [Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency) | 🟡 Medium | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting | Python |
 | 460 | [LFU Cache](solutions/0460-lfu-cache) | 🔴 Hard | Hash Table, Linked List, Design, Doubly-Linked List | Python |
 | 468 | [Validate IP Address](solutions/0468-validate-ip-address) | 🟡 Medium | String | Python |
@@ -97,6 +98,7 @@ _Last synced: 2026-08-25 08:27 UTC_
 | 525 | [Contiguous Array](solutions/0525-contiguous-array) | 🟡 Medium | Array, Hash Table, Prefix Sum | Python |
 | 547 | [Number of Provinces](solutions/0547-number-of-provinces) | 🟡 Medium | Depth-First Search, Breadth-First Search, Union-Find, Graph Theory | Python |
 | 560 | [Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | Python |
+| 567 | [Permutation in String](solutions/0567-permutation-in-string) | 🟡 Medium | Hash Table, Two Pointers, String, Sliding Window | Python |
 | 621 | [Task Scheduler](solutions/0621-task-scheduler) | 🟡 Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Python |
 | 622 | [Design Circular Queue](solutions/0622-design-circular-queue) | 🟡 Medium | Array, Linked List, Design, Queue | Python |
 | 661 | [Image Smoother](solutions/0661-image-smoother) | 🟢 Easy | Array, Matrix | Python |
@@ -265,6 +267,43 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
+<details><summary><b>String</b> (33)</summary>
+
+- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
+- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
+- [12. Integer to Roman](solutions/0012-integer-to-roman)
+- [13. Roman to Integer](solutions/0013-roman-to-integer)
+- [20. Valid Parentheses](solutions/0020-valid-parentheses)
+- [22. Generate Parentheses](solutions/0022-generate-parentheses)
+- [49. Group Anagrams](solutions/0049-group-anagrams)
+- [71. Simplify Path](solutions/0071-simplify-path)
+- [72. Edit Distance](solutions/0072-edit-distance)
+- [79. Word Search](solutions/0079-word-search)
+- [91. Decode Ways](solutions/0091-decode-ways)
+- [97. Interleaving String](solutions/0097-interleaving-string)
+- [131. Palindrome Partitioning](solutions/0131-palindrome-partitioning)
+- [139. Word Break](solutions/0139-word-break)
+- [140. Word Break II](solutions/0140-word-break-ii)
+- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
+- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
+- [394. Decode String](solutions/0394-decode-string)
+- [399. Evaluate Division](solutions/0399-evaluate-division)
+- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [438. Find All Anagrams in a String](solutions/0438-find-all-anagrams-in-a-string)
+- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
+- [468. Validate IP Address](solutions/0468-validate-ip-address)
+- [567. Permutation in String](solutions/0567-permutation-in-string)
+- [721. Accounts Merge](solutions/0721-accounts-merge)
+- [809. Expressive Words](solutions/0809-expressive-words)
+- [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
+- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
+- [1143. Longest Common Subsequence](solutions/1143-longest-common-subsequence)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
+- [1405. Longest Happy String](solutions/1405-longest-happy-string)
+- [2086. Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters)
+- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
+
+</details>
 <details><summary><b>Depth-First Search</b> (31)</summary>
 
 - [79. Word Search](solutions/0079-word-search)
@@ -300,39 +339,38 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
-<details><summary><b>String</b> (31)</summary>
+<details><summary><b>Hash Table</b> (30)</summary>
 
+- [1. Two Sum](solutions/0001-two-sum)
 - [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
-- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
 - [12. Integer to Roman](solutions/0012-integer-to-roman)
 - [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [20. Valid Parentheses](solutions/0020-valid-parentheses)
-- [22. Generate Parentheses](solutions/0022-generate-parentheses)
+- [36. Valid Sudoku](solutions/0036-valid-sudoku)
 - [49. Group Anagrams](solutions/0049-group-anagrams)
-- [71. Simplify Path](solutions/0071-simplify-path)
-- [72. Edit Distance](solutions/0072-edit-distance)
-- [79. Word Search](solutions/0079-word-search)
-- [91. Decode Ways](solutions/0091-decode-ways)
-- [97. Interleaving String](solutions/0097-interleaving-string)
-- [131. Palindrome Partitioning](solutions/0131-palindrome-partitioning)
+- [128. Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence)
 - [139. Word Break](solutions/0139-word-break)
 - [140. Word Break II](solutions/0140-word-break-ii)
-- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
-- [332. Reconstruct Itinerary](solutions/0332-reconstruct-itinerary)
-- [394. Decode String](solutions/0394-decode-string)
-- [399. Evaluate Division](solutions/0399-evaluate-division)
+- [146. LRU Cache](solutions/0146-lru-cache)
+- [202. Happy Number](solutions/0202-happy-number)
+- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
+- [355. Design Twitter](solutions/0355-design-twitter)
 - [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [438. Find All Anagrams in a String](solutions/0438-find-all-anagrams-in-a-string)
 - [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
-- [468. Validate IP Address](solutions/0468-validate-ip-address)
+- [460. LFU Cache](solutions/0460-lfu-cache)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+- [525. Contiguous Array](solutions/0525-contiguous-array)
+- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
+- [567. Permutation in String](solutions/0567-permutation-in-string)
+- [621. Task Scheduler](solutions/0621-task-scheduler)
 - [721. Accounts Merge](solutions/0721-accounts-merge)
-- [809. Expressive Words](solutions/0809-expressive-words)
-- [990. Satisfiability of Equality Equations](solutions/0990-satisfiability-of-equality-equations)
-- [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)
-- [1143. Longest Common Subsequence](solutions/1143-longest-common-subsequence)
-- [1404. Number of Steps to Reduce a Number in Binary Representation to One](solutions/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
-- [1405. Longest Happy String](solutions/1405-longest-happy-string)
-- [2086. Minimum Number of Food Buckets to Feed the Hamsters](solutions/2086-minimum-number-of-food-buckets-to-feed-the-hamsters)
+- [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
+- [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
+- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
+- [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
+- [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
 - [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
+- [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
 <details><summary><b>Breadth-First Search</b> (29)</summary>
@@ -365,38 +403,6 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
 - [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
 - [1559. Detect Cycles in 2D Grid](solutions/1559-detect-cycles-in-2d-grid)
-- [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
-
-</details>
-<details><summary><b>Hash Table</b> (28)</summary>
-
-- [1. Two Sum](solutions/0001-two-sum)
-- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
-- [12. Integer to Roman](solutions/0012-integer-to-roman)
-- [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [36. Valid Sudoku](solutions/0036-valid-sudoku)
-- [49. Group Anagrams](solutions/0049-group-anagrams)
-- [128. Longest Consecutive Sequence](solutions/0128-longest-consecutive-sequence)
-- [139. Word Break](solutions/0139-word-break)
-- [140. Word Break II](solutions/0140-word-break-ii)
-- [146. LRU Cache](solutions/0146-lru-cache)
-- [202. Happy Number](solutions/0202-happy-number)
-- [347. Top K Frequent Elements](solutions/0347-top-k-frequent-elements)
-- [355. Design Twitter](solutions/0355-design-twitter)
-- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
-- [451. Sort Characters By Frequency](solutions/0451-sort-characters-by-frequency)
-- [460. LFU Cache](solutions/0460-lfu-cache)
-- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
-- [525. Contiguous Array](solutions/0525-contiguous-array)
-- [560. Subarray Sum Equals K](solutions/0560-subarray-sum-equals-k)
-- [621. Task Scheduler](solutions/0621-task-scheduler)
-- [721. Accounts Merge](solutions/0721-accounts-merge)
-- [863. All Nodes Distance K in Binary Tree](solutions/0863-all-nodes-distance-k-in-binary-tree)
-- [947. Most Stones Removed with Same Row or Column](solutions/0947-most-stones-removed-with-same-row-or-column)
-- [974. Subarray Sums Divisible by K](solutions/0974-subarray-sums-divisible-by-k)
-- [1386. Cinema Seat Allocation](solutions/1386-cinema-seat-allocation)
-- [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
-- [2384. Largest Palindromic Number](solutions/2384-largest-palindromic-number)
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
 
 </details>
@@ -480,6 +486,21 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
+<details><summary><b>Two Pointers</b> (11)</summary>
+
+- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
+- [11. Container With Most Water](solutions/0011-container-with-most-water)
+- [15. 3Sum](solutions/0015-3sum)
+- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
+- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
+- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
+- [189. Rotate Array](solutions/0189-rotate-array)
+- [202. Happy Number](solutions/0202-happy-number)
+- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
+- [567. Permutation in String](solutions/0567-permutation-in-string)
+- [809. Expressive Words](solutions/0809-expressive-words)
+
+</details>
 <details><summary><b>Heap (Priority Queue)</b> (10)</summary>
 
 - [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
@@ -534,20 +555,6 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [1443. Minimum Time to Collect All Apples in a Tree](solutions/1443-minimum-time-to-collect-all-apples-in-a-tree)
 - [1448. Count Good Nodes in Binary Tree](solutions/1448-count-good-nodes-in-binary-tree)
 - [2385. Amount of Time for Binary Tree to Be Infected](solutions/2385-amount-of-time-for-binary-tree-to-be-infected)
-
-</details>
-<details><summary><b>Two Pointers</b> (10)</summary>
-
-- [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
-- [11. Container With Most Water](solutions/0011-container-with-most-water)
-- [15. 3Sum](solutions/0015-3sum)
-- [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
-- [151. Reverse Words in a String](solutions/0151-reverse-words-in-a-string)
-- [167. Two Sum II - Input Array Is Sorted](solutions/0167-two-sum-ii-input-array-is-sorted)
-- [189. Rotate Array](solutions/0189-rotate-array)
-- [202. Happy Number](solutions/0202-happy-number)
-- [295. Find Median from Data Stream](solutions/0295-find-median-from-data-stream)
-- [809. Expressive Words](solutions/0809-expressive-words)
 
 </details>
 <details><summary><b>Binary Tree</b> (9)</summary>
@@ -623,6 +630,16 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
+<details><summary><b>Sliding Window</b> (6)</summary>
+
+- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
+- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
+- [438. Find All Anagrams in a String](solutions/0438-find-all-anagrams-in-a-string)
+- [567. Permutation in String](solutions/0567-permutation-in-string)
+- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
+- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
+
+</details>
 <details><summary><b>Design</b> (5)</summary>
 
 - [146. LRU Cache](solutions/0146-lru-cache)
@@ -689,14 +706,6 @@ _Last synced: 2026-08-25 08:27 UTC_
 - [743. Network Delay Time](solutions/0743-network-delay-time)
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
-
-</details>
-<details><summary><b>Sliding Window</b> (4)</summary>
-
-- [3. Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters)
-- [424. Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement)
-- [718. Maximum Length of Repeated Subarray](solutions/0718-maximum-length-of-repeated-subarray)
-- [1004. Max Consecutive Ones III](solutions/1004-max-consecutive-ones-iii)
 
 </details>
 <details><summary><b>Divide and Conquer</b> (3)</summary>

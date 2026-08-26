@@ -378,6 +378,16 @@
     ],
     "title": "Expressive Words"
   },
+  "find-all-anagrams-in-a-string": {
+    "difficulty": "Medium",
+    "id": "438",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "title": "Find All Anagrams in a String"
+  },
   "find-eventual-safe-states": {
     "difficulty": "Medium",
     "id": "802",
@@ -975,6 +985,17 @@
       "Matrix"
     ],
     "title": "Path with Maximum Gold"
+  },
+  "permutation-in-string": {
+    "difficulty": "Medium",
+    "id": "567",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Sliding Window"
+    ],
+    "title": "Permutation in String"
   },
   "possible-bipartition": {
     "difficulty": "Medium",
