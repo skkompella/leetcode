@@ -4,9 +4,9 @@ Auto-synced from LeetCode and organized into a portfolio. Solutions live in [`so
 
 ## 📊 Summary
 
-**133 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 111 Medium &nbsp;·&nbsp; 🔴 9 Hard
+**134 solved** &nbsp;·&nbsp; 🟢 13 Easy &nbsp;·&nbsp; 🟡 112 Medium &nbsp;·&nbsp; 🔴 9 Hard
 
-_Last synced: 2026-08-31 15:34 UTC_
+_Last synced: 2026-09-01 12:50 UTC_
 
 ## ✅ Problems
 
@@ -59,6 +59,7 @@ _Last synced: 2026-08-31 15:34 UTC_
 | 139 | [Word Break](solutions/0139-word-break) | 🟡 Medium | Array, Hash Table, String, Dynamic Programming, Trie, Memoization | Python |
 | 140 | [Word Break II](solutions/0140-word-break-ii) | 🔴 Hard | Array, Hash Table, String, Dynamic Programming, Backtracking, Trie, Memoization | Python |
 | 146 | [LRU Cache](solutions/0146-lru-cache) | 🟡 Medium | Hash Table, Linked List, Design, Doubly-Linked List | Python |
+| 150 | [Evaluate Reverse Polish Notation](solutions/0150-evaluate-reverse-polish-notation) | 🟡 Medium | Array, Math, Stack | Python |
 | 151 | [Reverse Words in a String](solutions/0151-reverse-words-in-a-string) | 🟡 Medium | Two Pointers, String | Python |
 | 152 | [Maximum Product Subarray](solutions/0152-maximum-product-subarray) | 🟡 Medium | Array, Dynamic Programming | Python |
 | 153 | [Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array) | 🟡 Medium | Array, Binary Search | Python |
@@ -148,7 +149,7 @@ _Last synced: 2026-08-31 15:34 UTC_
 
 ## 🏷️ By Topic
 
-<details><summary><b>Array</b> (74)</summary>
+<details><summary><b>Array</b> (75)</summary>
 
 - [1. Two Sum](solutions/0001-two-sum)
 - [11. Container With Most Water](solutions/0011-container-with-most-water)
@@ -178,6 +179,7 @@ _Last synced: 2026-08-31 15:34 UTC_
 - [136. Single Number](solutions/0136-single-number)
 - [139. Word Break](solutions/0139-word-break)
 - [140. Word Break II](solutions/0140-word-break-ii)
+- [150. Evaluate Reverse Polish Notation](solutions/0150-evaluate-reverse-polish-notation)
 - [152. Maximum Product Subarray](solutions/0152-maximum-product-subarray)
 - [153. Find Minimum in Rotated Sorted Array](solutions/0153-find-minimum-in-rotated-sorted-array)
 - [162. Find Peak Element](solutions/0162-find-peak-element)
@@ -486,6 +488,21 @@ _Last synced: 2026-08-31 15:34 UTC_
 - [2850. Minimum Moves to Spread Stones Over Grid](solutions/2850-minimum-moves-to-spread-stones-over-grid)
 
 </details>
+<details><summary><b>Math</b> (11)</summary>
+
+- [2. Add Two Numbers](solutions/0002-add-two-numbers)
+- [12. Integer to Roman](solutions/0012-integer-to-roman)
+- [13. Roman to Integer](solutions/0013-roman-to-integer)
+- [48. Rotate Image](solutions/0048-rotate-image)
+- [62. Unique Paths](solutions/0062-unique-paths)
+- [70. Climbing Stairs](solutions/0070-climbing-stairs)
+- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
+- [150. Evaluate Reverse Polish Notation](solutions/0150-evaluate-reverse-polish-notation)
+- [189. Rotate Array](solutions/0189-rotate-array)
+- [202. Happy Number](solutions/0202-happy-number)
+- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
+
+</details>
 <details><summary><b>Two Pointers</b> (11)</summary>
 
 - [5. Longest Palindromic Substring](solutions/0005-longest-palindromic-substring)
@@ -513,20 +530,6 @@ _Last synced: 2026-08-31 15:34 UTC_
 - [787. Cheapest Flights Within K Stops](solutions/0787-cheapest-flights-within-k-stops)
 - [1405. Longest Happy String](solutions/1405-longest-happy-string)
 - [3650. Minimum Cost Path with Edge Reversals](solutions/3650-minimum-cost-path-with-edge-reversals)
-
-</details>
-<details><summary><b>Math</b> (10)</summary>
-
-- [2. Add Two Numbers](solutions/0002-add-two-numbers)
-- [12. Integer to Roman](solutions/0012-integer-to-roman)
-- [13. Roman to Integer](solutions/0013-roman-to-integer)
-- [48. Rotate Image](solutions/0048-rotate-image)
-- [62. Unique Paths](solutions/0062-unique-paths)
-- [70. Climbing Stairs](solutions/0070-climbing-stairs)
-- [96. Unique Binary Search Trees](solutions/0096-unique-binary-search-trees)
-- [189. Rotate Array](solutions/0189-rotate-array)
-- [202. Happy Number](solutions/0202-happy-number)
-- [523. Continuous Subarray Sum](solutions/0523-continuous-subarray-sum)
 
 </details>
 <details><summary><b>Sorting</b> (10)</summary>
@@ -596,13 +599,14 @@ _Last synced: 2026-08-31 15:34 UTC_
 - [2909. Minimum Sum of Mountain Triplets II](solutions/2909-minimum-sum-of-mountain-triplets-ii)
 
 </details>
-<details><summary><b>Stack</b> (8)</summary>
+<details><summary><b>Stack</b> (9)</summary>
 
 - [20. Valid Parentheses](solutions/0020-valid-parentheses)
 - [42. Trapping Rain Water](solutions/0042-trapping-rain-water)
 - [71. Simplify Path](solutions/0071-simplify-path)
 - [84. Largest Rectangle in Histogram](solutions/0084-largest-rectangle-in-histogram)
 - [85. Maximal Rectangle](solutions/0085-maximal-rectangle)
+- [150. Evaluate Reverse Polish Notation](solutions/0150-evaluate-reverse-polish-notation)
 - [394. Decode String](solutions/0394-decode-string)
 - [739. Daily Temperatures](solutions/0739-daily-temperatures)
 - [1047. Remove All Adjacent Duplicates In String](solutions/1047-remove-all-adjacent-duplicates-in-string)

@@ -368,6 +368,16 @@
     ],
     "title": "Evaluate Division"
   },
+  "evaluate-reverse-polish-notation": {
+    "difficulty": "Medium",
+    "id": "150",
+    "tags": [
+      "Array",
+      "Math",
+      "Stack"
+    ],
+    "title": "Evaluate Reverse Polish Notation"
+  },
   "expressive-words": {
     "difficulty": "Medium",
     "id": "809",
