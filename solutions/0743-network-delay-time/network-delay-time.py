@@ -1,30 +1,31 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
-        visited = defaultdict(int)
-        visited[k] = 0
+        # min path with weighted graph => dijkstra
 
         adj = defaultdict(list)
-        weights = {}
+        dist = {}
+        visited = {}
+        visited[k]=0
         for u, v, w in times:
             adj[u].append(v)
-            weights[(u, v)] = w
-        
-        heap = []
-        for connect in adj[k]:
-            heapq.heappush(heap, (weights[(k, connect)], k, connect))
-        # print(heap)
-        while heap:
-            weight, u, v = heapq.heappop(heap)
-            if v in visited:
+            dist[(u, v)] = w
+        # print(adj.keys(), k)
+        q = []
+        for nei in adj[k]:
+            heapq.heappush(q, (dist[(k, nei)], nei))
+        # print(q)
+        while len(q) != 0:
+            d, node = heapq.heappop(q)
+            if node in visited and visited[node] < d:
                 continue
-            visited[v] = weight
-            for node in adj[v]:
-                if node not in visited:
-                    # print(v, node, visited[v] + weights[(v, node)], visited)
-                    heapq.heappush(heap, (weight + weights[(v, node)], v, node))
-        
+            visited[node] = d
+            for nei in adj[node]:
+                if nei in visited:
+                    if visited[nei] > d + dist[(node, nei)]:
+                        heapq.heappush(q, (d + dist[(node, nei)], nei))
+                else:
+                    heapq.heappush(q, (d + dist[(node, nei)], nei))
         # print(visited)
-        j = visited.values()
-        if len(j) != n:
+        if len(visited)!=n:
             return -1
-        return max(j)
+        return max(visited.values())

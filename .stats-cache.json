@@ -944,6 +944,17 @@
     ],
     "title": "Number of Islands"
   },
+  "number-of-operations-to-make-network-connected": {
+    "difficulty": "Medium",
+    "id": "1319",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "title": "Number of Operations to Make Network Connected"
+  },
   "number-of-provinces": {
     "difficulty": "Medium",
     "id": "547",
@@ -1130,6 +1141,16 @@
       "Memoization"
     ],
     "title": "Selling Pieces of Wood"
+  },
+  "shortest-path-in-binary-matrix": {
+    "difficulty": "Medium",
+    "id": "1091",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "title": "Shortest Path in Binary Matrix"
   },
   "simplify-path": {
     "difficulty": "Medium",
