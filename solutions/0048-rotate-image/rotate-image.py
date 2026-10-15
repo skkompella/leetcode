@@ -3,15 +3,10 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        # print(matrix)
         length = len(matrix)-1
-        for k in (range(len(matrix)//2)):
-            for i in range(k, length-k):
-                # if k == 1:
-                    # print(matrix[k][i], matrix[i][length-k], matrix[length-k][length-i], matrix[length-i][k])
-                matrix[k][i], matrix[i][length-k], matrix[length-k][length-i], matrix[length-i][k] = matrix[length-i][k], matrix[k][i], matrix[i][length-k], matrix[length-k][length-i]
-            # length -= 1
-                # print(matrix)
-            #     break
-            # print(matrix)
-            # break
+        for i in range(len(matrix)//2):
+            for j in range(i, length-i):
+                # print(matrix[i][j], matrix[j][length-i], matrix[length-i][length-j], matrix[length-j][i])
+                matrix[i][j], matrix[j][length-i], matrix[length-i][length-j], matrix[length-j][i] = matrix[length-j][i], matrix[i][j], matrix[j][length-i], matrix[length-i][length-j]
+                # print(matrix[i][j], matrix[j][length-i], matrix[length-i][length-j], matrix[length-j][i])
+                # print(matrix[i][j])

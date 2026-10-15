@@ -1,14 +1,13 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        diffs = {0: 1}
-        prefix = 0
-        count = 0
-        for n in nums:
-            prefix += n
-            if prefix-k in diffs:
-                count += diffs[prefix-k]
-            if prefix not in diffs:
-                diffs[prefix] = 1
-            else:
-                diffs[prefix] += 1
-        return count               
+        seen = defaultdict(int)
+        seen[0] = 1
+        run_sum = 0
+        tot = 0
+        for i in nums:
+            run_sum += i
+            if run_sum-k in seen:
+                # print()
+                tot+=seen[run_sum-k]
+            seen[run_sum]+=1
+        return tot

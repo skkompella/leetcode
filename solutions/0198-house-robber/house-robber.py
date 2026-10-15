@@ -1,13 +1,12 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:
-        memo = {}
+    def rob(self, nums: list[int]) -> int:
+        cache = {}
         length = len(nums)
-        def recurse(idx):
-            if idx >= length:
+        def recurse(i):
+            if i > length-1:
                 return 0
-            if idx not in memo:
-                # j1 = nums[idx] + recurse(idx+2)
-                # j2 = recurse(idx+1)
-                memo[idx] = max(recurse(idx+1), nums[idx] + recurse(idx+2))
-            return memo[idx]
+            if i not in cache:
+                cache[i] = max(recurse(i+1), nums[i]+recurse(i+2))
+            return cache[i]
         return recurse(0)
+        
