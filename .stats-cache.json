@@ -126,6 +126,18 @@
     ],
     "title": "Capacity To Ship Packages Within D Days"
   },
+  "car-pooling": {
+    "difficulty": "Medium",
+    "id": "1094",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation",
+      "Prefix Sum"
+    ],
+    "title": "Car Pooling"
+  },
   "cheapest-flights-within-k-stops": {
     "difficulty": "Medium",
     "id": "787",
@@ -544,6 +556,16 @@
     ],
     "title": "Interleaving String"
   },
+  "interval-list-intersections": {
+    "difficulty": "Medium",
+    "id": "986",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sweep Line"
+    ],
+    "title": "Interval List Intersections"
+  },
   "is-graph-bipartite": {
     "difficulty": "Medium",
     "id": "785",
@@ -954,6 +976,17 @@
     ],
     "title": "Network Delay Time"
   },
+  "non-overlapping-intervals": {
+    "difficulty": "Medium",
+    "id": "435",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
+    ],
+    "title": "Non-overlapping Intervals"
+  },
   "number-of-1-bits": {
     "difficulty": "Easy",
     "id": "191",
@@ -1113,6 +1146,17 @@
       "Stack"
     ],
     "title": "Remove All Adjacent Duplicates In String"
+  },
+  "remove-sub-folders-from-the-filesystem": {
+    "difficulty": "Medium",
+    "id": "1233",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Trie"
+    ],
+    "title": "Remove Sub-Folders from the Filesystem"
   },
   "reverse-words-in-a-string": {
     "difficulty": "Medium",
